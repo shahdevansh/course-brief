@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-17T12:15:00-07:00",
+  "updated_at": "2026-09-19T05:38:00-07:00",
   "days": {
     "2026-09-17": {
       "date": "2026-09-17",
@@ -268,8 +268,8 @@
     },
     "2026-09-18": {
       "date": "2026-09-18",
-      "generated_at": "Thu Sep 17, 11pm PT",
-      "day_summary": "No classes today - Berkeley Base Camp starts at 2pm (Yosemite weekend). Best use of the drive: knock out the overdue Agentic AI Assignment 2 and draft the P&P essay due Monday 4:10pm.",
+      "generated_at": "Fri Sep 18, 5:40am PT",
+      "day_summary": "No classes today. Base Camp begins at 2pm and your calendar has a 10:30am departure for the drive. Coursework priority: finish the overdue Agentic AI Assignment 2, complete the Power & Politics essay due Monday 4:10pm, and start the Tue-Wed deliverables before the weekend gets busy.",
       "courses": [],
       "other_deliverables": [
         {
@@ -318,7 +318,7 @@
           "assignment_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938",
           "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938",
           "status": "upcoming",
-          "instructions": "Spec in the linked Google Doc."
+          "instructions": "Updated spec: run all 48 provided evals before and after training, extend the corpus, compare results, and keep every eval out of the training corpus. Grading is on running the tests and explaining what happened, not achieving a perfect score. Updated example notebook: https://colab.research.google.com/github/pepealonso95/custom-llm/blob/main/custom_llm.ipynb"
         },
         {
           "course": "VC & PE (MBA 295B)",
@@ -330,17 +330,7 @@
           "assignment_url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951",
           "submit_url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951",
           "status": "upcoming",
-          "instructions": "Source and write up two potential real investments (one page each): company, business model, why attractive, risks. Sober analysis, not a sales doc. Plus a 2-page team memo."
-        },
-        {
-          "course": "UGBA 196 (you TA)",
-          "title": "Grading queue: M.E.T. Trading Card (53) + Timex Case (49)",
-          "due": "",
-          "due_label": "102 submissions pending",
-          "est_minutes": 240,
-          "assignment_url": "https://bcourses.berkeley.edu/courses/1556389/assignments/9102052",
-          "status": "upcoming",
-          "instructions": "M.E.T. Trading Card has 53 ungraded, Timex Case Analysis 49. The 9/16 reflection submissions are now landing too."
+          "instructions": "Source and write up two potential real investments (one page each): company, business model, why attractive, risks; sober analysis, not a sales doc, plus the team memo. Mentor introductions arrived last night - schedule your mentor meeting in the next few weeks and flag any scheduling trouble to the teaching team. You do not need to contact companies this week."
         },
         {
           "course": "Trust-Based Relationships (MBA 291R)",
@@ -354,7 +344,17 @@
           "status": "upcoming"
         }
       ],
-      "audio": null
+      "audio": "https://drive.google.com/uc?export=download&id=1lvSVi4VU5f88HxvFT-5CwrIb-Mj6xbv1",
+      "notices": [
+        {
+          "title": "Power & Politics prep for Monday",
+          "text": "Alongside Assignment 2, prepare a real persuasion ask, draft the exact words you would use, re-read Lisa Lubinsky, read the one-page Cajoling Campbell prep, and bring your laptop."
+        },
+        {
+          "title": "VC & PE mentor",
+          "text": "Mentor introductions were sent last night. Reach out to schedule in the next few weeks; company outreach is not needed this week."
+        }
+      ]
     },
     "2026-09-21": {
       "date": "2026-09-21",
@@ -496,14 +496,18 @@
           "name": "Special Topics in Technology: Continual Learning in AI",
           "short": "Continual Learning in AI",
           "code": "INFO 290T",
-          "status": "audit",
+          "status": "enrolled",
           "meeting": {
             "label": "9:30-11:00am",
             "location": "South Hall 210"
           },
           "prep": [
             {
-              "text": "Check the course page for this session's assigned reading (posted by Niloufar)",
+              "text": "Read the evaluation sections of De Lange et al., A Continual Learning Survey: Defying Forgetting in Classification Tasks",
+              "optional": false
+            },
+            {
+              "text": "Come ready to compare benchmark protocols and retention/adaptation metrics",
               "optional": false
             },
             {
@@ -512,8 +516,9 @@
             }
           ],
           "takeaways": [
-            "Course theme: how AI systems keep learning after deployment - memory types, catastrophic forgetting, test-time learning",
-            "HW1 (personal speech eval set + baseline) due Oct 1"
+            "Evaluation must measure both adaptation to new experience and retention of earlier behavior; average current-task accuracy alone can hide forgetting.",
+            "Benchmark design depends on what the learner knows at test time, how task boundaries arrive, and whether memory, compute, privacy, and labels are constrained.",
+            "HW1, a personal speech evaluation set plus baseline, is due Oct 1 at 11:59pm."
           ],
           "materials": [
             {
@@ -707,6 +712,138 @@
         }
       ],
       "audio": null
+    },
+    "2026-09-24": {
+      "date": "2026-09-24",
+      "generated_at": "Thu 1:32pm PT",
+      "audio": null,
+      "day_summary": "Conflict Lab meets 2-5pm. INFO 290T Continual Learning is not on your calendar for Sep 24 and is intentionally excluded pending any later instructor update.",
+      "courses": [
+        {
+          "course_id": 1556459,
+          "name": "Conflict Lab",
+          "short": "Conflict Lab",
+          "code": "MBA 211",
+          "status": "enrolled",
+          "meeting": {
+            "label": "2:00-5:00pm",
+            "location": "Chou Hall N500"
+          },
+          "prep": [
+            {
+              "text": "Check the Week 5 bCourses page and latest announcement during the morning refresh for posted preparation",
+              "optional": false
+            }
+          ],
+          "takeaways": [
+            "Session detail and required preparation will be pulled from the course’s Week 5 page, announcements, files, and course email before class."
+          ],
+          "materials": [
+            {
+              "title": "Conflict Lab on bCourses",
+              "kind": "page",
+              "url": "https://bcourses.berkeley.edu/courses/1556459",
+              "source": "bCourses"
+            }
+          ],
+          "deliverables": []
+        }
+      ],
+      "other_deliverables": []
+    },
+    "2026-09-19": {
+      "date": "2026-09-19",
+      "generated_at": "Sat Sep 19, 5:38am PT",
+      "audio": "https://drive.google.com/uc?export=download&id=1MVvHEHyRzMLmlyvvbJtmxpjL_1tQ8d5S",
+      "day_summary": "No classes today. You are at Berkeley Base Camp with the all-day Haasemite / Cloud’s Rest trek. No new coursework is due today; protect the P&P essay due Monday 4:10pm and the Tue-Wed assignment stack when you are back online.",
+      "courses": [],
+      "other_deliverables": [
+        {
+          "course": "Agentic AI (MBA 290T)",
+          "title": "Assignment 2",
+          "due": "2026-09-16T06:59:59Z",
+          "due_label": "OVERDUE - was due Tue 11:59pm",
+          "est_minutes": 45,
+          "points": 10,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935",
+          "status": "overdue",
+          "instructions": "Still showing unsubmitted. Late window may still be open - submit ASAP."
+        },
+        {
+          "course": "Power & Politics (MBA 254)",
+          "title": "Assignment 2: Relating Self-Reflection",
+          "due": "2026-09-21T23:10:00Z",
+          "due_label": "Mon Sep 21, 4:10pm",
+          "est_minutes": 120,
+          "points": 10,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114072",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114072",
+          "status": "upcoming",
+          "instructions": "2-page essay: pick from credibility, advocacy, trustworthiness, openness, personability - which to improve, why, 2-3 specific behaviors to change, and your plan for overcoming internal blockers."
+        },
+        {
+          "course": "Financial Models (MBA 236G)",
+          "title": "Homework 3 - Individual Model",
+          "due": "2026-09-22T21:00:00Z",
+          "due_label": "Tue Sep 22, 2:00pm",
+          "est_minutes": 150,
+          "points": 6,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1559172/assignments/9139844",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1559172/assignments/9139844",
+          "status": "upcoming",
+          "instructions": "Build one tab of your HW1 model in Excel following all DFMW design guidelines. Include a note identifying your target audience and at least one clearly labeled output. Classmates will review it next week."
+        },
+        {
+          "course": "Agentic AI (MBA 290T)",
+          "title": "Assignment 3",
+          "due": "2026-09-23T06:59:59Z",
+          "due_label": "Tue Sep 22, 11:59pm",
+          "est_minutes": 60,
+          "points": 10,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938",
+          "status": "upcoming",
+          "instructions": "Updated spec: run all 48 provided evals before and after training, extend the corpus, compare results, and keep every eval out of the training corpus. Grading is on running the tests and explaining what happened, not achieving a perfect score. Updated example notebook: https://colab.research.google.com/github/pepealonso95/custom-llm/blob/main/custom_llm.ipynb"
+        },
+        {
+          "course": "VC & PE (MBA 295B)",
+          "title": "Assignment 2: Investment Opportunity Selection & Mentor Assignment",
+          "due": "2026-09-23T19:00:00Z",
+          "due_label": "Wed Sep 23, 12:00pm",
+          "est_minutes": 150,
+          "points": 5,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951",
+          "status": "upcoming",
+          "instructions": "Source and write up two potential real investments (one page each): company, business model, why attractive, risks; sober analysis, not a sales doc, plus the team memo. Mentor introductions arrived last night - schedule your mentor meeting in the next few weeks and flag any scheduling trouble to the teaching team. You do not need to contact companies this week."
+        },
+        {
+          "course": "Trust-Based Relationships (MBA 291R)",
+          "title": "Pre-Course Learning Objective",
+          "due": "2026-10-02T06:59:59Z",
+          "due_label": "Thu Oct 1, 11:59pm",
+          "est_minutes": 30,
+          "points": 1,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1555560/assignments/9139312",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1555560/assignments/9139312",
+          "status": "upcoming"
+        }
+      ],
+      "notices": [
+        {
+          "title": "Conflict Lab - no work due next week",
+          "text": "The instructors posted the Class 4 slides and Body Sensations Sheet. There are no Conflict Lab assignments due next week; Deliverable 2 is due Oct 7 at 8pm."
+        },
+        {
+          "title": "Conflict styles report",
+          "text": "Your personalized report arrived by email. Its point: different contexts call for different conflict styles, and the goal is to build access to all five rather than treat one style as universally right."
+        },
+        {
+          "title": "UGBA 196 course maintenance",
+          "text": "Canvas reported an unpublished Week 13 page linked from the course homepage. This is a teaching-side broken link to fix later, not a student deliverable."
+        }
+      ]
     }
   },
   "weeks": {
@@ -865,15 +1002,14 @@
         },
         {
           "name": "Continual Learning in AI",
-          "short": "Continual Learning (audit)",
+          "short": "Continual Learning",
           "code": "INFO 290T",
           "sessions": [
-            "Tue 9:30-11:00am, South Hall 210",
-            "Thu 9:30-11:00am, South Hall 210"
+            "Tue 9:30-11:00am, South Hall 210"
           ],
-          "agenda": "Lecture + reading discussion; hands-on project course.",
+          "agenda": "Tue Sep 22: Evaluation and benchmarks for continual learning. No Sep 24 meeting is on Devansh’s course calendar; do not assume a Thursday session from the generic Tu/Th pattern.",
           "readings": [
-            "Reading for each session is posted on the course page / announced on bCourses"
+            "Tue Sep 22: De Lange et al., A Continual Learning Survey - evaluation sections"
           ],
           "deliverables": [
             {
