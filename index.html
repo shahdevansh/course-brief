@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e1116">
+<title>Course Brief</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+<header id="topbar">
+  <div class="wrap">
+    <div id="brand">Course Brief</div>
+    <nav id="nav">
+      <button id="nav-prev" title="Previous day">‹</button>
+      <button id="nav-today">Today</button>
+      <button id="nav-next" title="Next day">›</button>
+      <button id="nav-week">Week</button>
+    </nav>
+  </div>
+</header>
+<main id="app" class="wrap"><div class="loading">Loading…</div></main>
+<button id="voice-fab" title="Play today's briefing" hidden>▶ <span>Listen</span></button>
+<audio id="voice-audio" preload="none"></audio>
+<script src="app.js"></script>
+</body>
+</html>
