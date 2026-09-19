@@ -13,7 +13,7 @@ function fmtTime(t){if(!t)return'';var d=new Date(t);return d.toLocaleTimeString
 function fmtDue(t){if(!t)return'no due date';var d=new Date(t);return d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',timeZone:TZ})+' '+d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZone:TZ});}
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
 var state={date:null};
-var RUNTIME_URL='https://drive.google.com/uc?export=download&id=13HBt6ENPHHHKDOKLFGNWiEowriBwzKZc';
+var RUNTIME_URL='https://drive.usercontent.google.com/download?id=13HBt6ENPHHHKDOKLFGNWiEowriBwzKZc&export=download';
 var runtimePromise=null;
 function loadRuntime(){if(!runtimePromise)runtimePromise=fetch(RUNTIME_URL,{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('runtime');return r.json();}).catch(function(){return fetch('runtime-fallback.json',{cache:'no-cache'}).then(function(r){return r.json();});});return runtimePromise;}
 function route(){
@@ -74,7 +74,7 @@ function loadDay(date){
     if(d.courses&&d.courses.length){h+='<nav class="class-crumbs" aria-label="Classes today"><span>Jump to:</span>';d.courses.forEach(function(c,i){h+='<a href="#'+courseAnchor(c,i)+'">'+esc(c.short||c.name)+'</a>';});h+='</nav>';d.courses.forEach(function(c,i){h+=renderCourse(c,i);});}else{h+='<div class="empty">No classes this day.</div>';}
     if(d.other_deliverables&&d.other_deliverables.length){h+='<h3 class="sec" style="margin-top:24px">Also due</h3>';d.other_deliverables.forEach(function(x){h+=renderDeliv(x);});}
     h+='<footer>Generated from bCourses + your calendar. Recall over accuracy: if something looks missing, it may not be posted yet.</footer>';
-    app.innerHTML=h;setAudio(d.audio||(date==='2026-09-17'?'https://drive.google.com/uc?export=download&id=1Ee99cJkRNWJIpX71Xy3PbDL6fzqsgJp8':null));window.scrollTo(0,0);
+    app.innerHTML=h;setAudio(d.audio||(date==='2026-09-17'?'https://drive.usercontent.google.com/download?id=1Ee99cJkRNWJIpX71Xy3PbDL6fzqsgJp8&export=download':null));window.scrollTo(0,0);
   }).catch(function(){
     app.innerHTML='<div class="day-head"><h1>'+fmtDay(date)+'</h1></div><div class="empty">No brief generated for this day yet.<br><br><a class="btn" href="#/day/'+todayStr()+'">Back to today</a></div>';setAudio(null);
   });
