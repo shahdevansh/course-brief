@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-19T05:38:00-07:00",
+  "updated_at": "2026-09-20T05:40:00-07:00",
   "days": {
     "2026-09-17": {
       "date": "2026-09-17",
@@ -358,8 +358,8 @@
     },
     "2026-09-21": {
       "date": "2026-09-21",
-      "generated_at": "Thu Sep 17, 11pm PT",
-      "day_summary": "One class: Power & Politics at 4pm. The Relating Self-Reflection essay is due at 4:10pm, right as class starts - submit before you walk in. Bring your laptop for the Cajoling Campbell exercise.",
+      "generated_at": "Sun Sep 20, 5:40am PT",
+      "day_summary": "Power & Politics meets 4:00-6:00pm in Chou N370. Submit the Relating Self-Reflection essay by 4:10pm, prepare a real Ask, and bring your laptop. Canvas still shows the essay unsubmitted.",
       "courses": [
         {
           "course_id": 1555457,
@@ -418,13 +418,13 @@
           "course": "Agentic AI (MBA 290T)",
           "title": "Assignment 2",
           "due": "2026-09-16T06:59:59Z",
-          "due_label": "OVERDUE - was due Tue 11:59pm",
+          "due_label": "OVERDUE - was due Tue Sep 15, 11:59pm",
           "est_minutes": 45,
           "points": 10,
           "assignment_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935",
-          "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935#submit",
           "status": "overdue",
-          "instructions": "Still showing unsubmitted. Late window may still be open - submit ASAP."
+          "instructions": "Canvas still shows unsubmitted. Complete it if the late window remains open."
         },
         {
           "course": "Financial Models (MBA 236G)",
@@ -434,9 +434,9 @@
           "est_minutes": 150,
           "points": 6,
           "assignment_url": "https://bcourses.berkeley.edu/courses/1559172/assignments/9139844",
-          "submit_url": "https://bcourses.berkeley.edu/courses/1559172/assignments/9139844",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1559172/assignments/9139844#submit",
           "status": "upcoming",
-          "instructions": "Build one tab of your HW1 model in Excel following all DFMW design guidelines. Include a note identifying your target audience and at least one clearly labeled output. Classmates will review it next week."
+          "instructions": "Build one tab of your HW1 model using DFMW design rules; identify the target audience and at least one labeled output."
         },
         {
           "course": "Agentic AI (MBA 290T)",
@@ -446,9 +446,9 @@
           "est_minutes": 60,
           "points": 10,
           "assignment_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938",
-          "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938#submit",
           "status": "upcoming",
-          "instructions": "Spec in the linked Google Doc."
+          "instructions": "Run all 48 provided evals before and after training, extend the corpus, compare results, and keep evals out of training data."
         },
         {
           "course": "VC & PE (MBA 295B)",
@@ -458,38 +458,52 @@
           "est_minutes": 150,
           "points": 5,
           "assignment_url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951",
-          "submit_url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951#submit",
           "status": "upcoming",
-          "instructions": "Source and write up two potential real investments (one page each): company, business model, why attractive, risks. Sober analysis, not a sales doc. Plus a 2-page team memo."
+          "instructions": "Write two one-page investment opportunities plus team memo. Contact your assigned mentor and flag scheduling trouble."
+        },
+        {
+          "course": "Conflict Lab (MBA 292T)",
+          "title": "Class 5 (9/24)",
+          "due": "2026-09-24T21:00:00Z",
+          "due_label": "Thu Sep 24, 2:00pm",
+          "est_minutes": 20,
+          "points": 5,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1556459/assignments/9130261",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1556459/assignments/9130261#submit",
+          "status": "upcoming",
+          "instructions": "Canvas lists a Class 5 check-in. Instructor says no assignments are due next week, so treat this as in-class participation/check-in rather than take-home work."
+        },
+        {
+          "course": "INFO 290T - Continual Learning",
+          "title": "Academic Integrity Assignment",
+          "due": "2026-09-26T07:59:00Z",
+          "due_label": "Fri Sep 25, 12:59am",
+          "est_minutes": 10,
+          "points": 1,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9146314",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9146314#submit",
+          "status": "upcoming",
+          "instructions": "Canvas shows this unsubmitted. Complete it to verify course participation."
         },
         {
           "course": "UGBA 196 (you TA)",
-          "title": "Grading queue: M.E.T. Trading Card (53) + Timex Case (49)",
-          "due": "",
-          "due_label": "102 submissions pending",
-          "est_minutes": 240,
-          "assignment_url": "https://bcourses.berkeley.edu/courses/1556389/assignments/9102052",
-          "status": "upcoming",
-          "instructions": "M.E.T. Trading Card has 53 ungraded, Timex Case Analysis 49. The 9/16 reflection submissions are now landing too."
-        },
-        {
-          "course": "Trust-Based Relationships (MBA 291R)",
-          "title": "Pre-Course Learning Objective",
-          "due": "2026-10-02T06:59:59Z",
-          "due_label": "Thu Oct 1, 11:59pm",
-          "est_minutes": 30,
+          "title": "Academic Integrity Assignment",
+          "due": "2026-09-26T07:59:00Z",
+          "due_label": "Fri Sep 25, 12:59am",
+          "est_minutes": 10,
           "points": 1,
-          "assignment_url": "https://bcourses.berkeley.edu/courses/1555560/assignments/9139312",
-          "submit_url": "https://bcourses.berkeley.edu/courses/1555560/assignments/9139312",
-          "status": "upcoming"
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1556389/assignments/9145775",
+          "status": "upcoming",
+          "instructions": "Canvas lists this for the course; verify whether it applies to your TA role."
         }
       ],
       "audio": null
     },
     "2026-09-22": {
       "date": "2026-09-22",
-      "generated_at": "Thu Sep 17, 11pm PT",
-      "day_summary": "Three sessions: Continual Learning 9:30am (audit), Agentic AI at 4pm (Week 5: prompting & retrieval), and your UGBA 196.1 section at 4:30. Two deadlines: DFMW HW3 at 2pm and Agentic AI Assignment 3 at 11:59pm.",
+      "generated_at": "Sun Sep 20, 5:40am PT",
+      "day_summary": "Three sessions on the live calendar: enrolled INFO 290T Continual Learning 9:30-11:00am, Agentic AI 4:00-6:00pm, and your UGBA 196.1 section 4:30-5:20pm. Financial Models HW3 is due 2pm and Agentic AI Assignment 3 at 11:59pm; both still show unsubmitted.",
       "courses": [
         {
           "course_id": 1558849,
@@ -657,25 +671,25 @@
           "course": "Agentic AI (MBA 290T)",
           "title": "Assignment 2",
           "due": "2026-09-16T06:59:59Z",
-          "due_label": "OVERDUE - was due Tue 11:59pm",
+          "due_label": "OVERDUE - was due Tue Sep 15, 11:59pm",
           "est_minutes": 45,
           "points": 10,
           "assignment_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935",
-          "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935#submit",
           "status": "overdue",
-          "instructions": "Still showing unsubmitted. Late window may still be open - submit ASAP."
+          "instructions": "Canvas still shows unsubmitted. Complete it if the late window remains open."
         },
         {
-          "course": "Financial Models (MBA 236G)",
-          "title": "Homework 3 - Individual Model",
-          "due": "2026-09-22T21:00:00Z",
-          "due_label": "Tue Sep 22, 2:00pm",
-          "est_minutes": 150,
-          "points": 6,
-          "assignment_url": "https://bcourses.berkeley.edu/courses/1559172/assignments/9139844",
-          "submit_url": "https://bcourses.berkeley.edu/courses/1559172/assignments/9139844",
+          "course": "Power & Politics (MBA 254)",
+          "title": "Assignment 2: Relating Self-Reflection",
+          "due": "2026-09-21T23:10:00Z",
+          "due_label": "Mon Sep 21, 4:10pm",
+          "est_minutes": 120,
+          "points": 10,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114072",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114072#submit",
           "status": "upcoming",
-          "instructions": "Build one tab of your HW1 model in Excel following all DFMW design guidelines. Include a note identifying your target audience and at least one clearly labeled output. Classmates will review it next week."
+          "instructions": "2-page essay on the relational attribute you most need to improve, 2-3 behaviors to change, and how you will overcome blockers."
         },
         {
           "course": "VC & PE (MBA 295B)",
@@ -685,39 +699,53 @@
           "est_minutes": 150,
           "points": 5,
           "assignment_url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951",
-          "submit_url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951#submit",
           "status": "upcoming",
-          "instructions": "Source and write up two potential real investments (one page each): company, business model, why attractive, risks. Sober analysis, not a sales doc. Plus a 2-page team memo."
+          "instructions": "Write two one-page investment opportunities plus team memo. Contact your assigned mentor and flag scheduling trouble."
+        },
+        {
+          "course": "Conflict Lab (MBA 292T)",
+          "title": "Class 5 (9/24)",
+          "due": "2026-09-24T21:00:00Z",
+          "due_label": "Thu Sep 24, 2:00pm",
+          "est_minutes": 20,
+          "points": 5,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1556459/assignments/9130261",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1556459/assignments/9130261#submit",
+          "status": "upcoming",
+          "instructions": "Canvas lists a Class 5 check-in. Instructor says no assignments are due next week, so treat this as in-class participation/check-in rather than take-home work."
+        },
+        {
+          "course": "INFO 290T - Continual Learning",
+          "title": "Academic Integrity Assignment",
+          "due": "2026-09-26T07:59:00Z",
+          "due_label": "Fri Sep 25, 12:59am",
+          "est_minutes": 10,
+          "points": 1,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9146314",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9146314#submit",
+          "status": "upcoming",
+          "instructions": "Canvas shows this unsubmitted. Complete it to verify course participation."
         },
         {
           "course": "UGBA 196 (you TA)",
-          "title": "Grading queue: M.E.T. Trading Card (53) + Timex Case (49)",
-          "due": "",
-          "due_label": "102 submissions pending",
-          "est_minutes": 240,
-          "assignment_url": "https://bcourses.berkeley.edu/courses/1556389/assignments/9102052",
-          "status": "upcoming",
-          "instructions": "M.E.T. Trading Card has 53 ungraded, Timex Case Analysis 49. The 9/16 reflection submissions are now landing too."
-        },
-        {
-          "course": "Trust-Based Relationships (MBA 291R)",
-          "title": "Pre-Course Learning Objective",
-          "due": "2026-10-02T06:59:59Z",
-          "due_label": "Thu Oct 1, 11:59pm",
-          "est_minutes": 30,
+          "title": "Academic Integrity Assignment",
+          "due": "2026-09-26T07:59:00Z",
+          "due_label": "Fri Sep 25, 12:59am",
+          "est_minutes": 10,
           "points": 1,
-          "assignment_url": "https://bcourses.berkeley.edu/courses/1555560/assignments/9139312",
-          "submit_url": "https://bcourses.berkeley.edu/courses/1555560/assignments/9139312",
-          "status": "upcoming"
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1556389/assignments/9145775",
+          "status": "upcoming",
+          "instructions": "Canvas lists this for the course; verify whether it applies to your TA role."
         }
       ],
       "audio": null
     },
     "2026-09-24": {
       "date": "2026-09-24",
-      "generated_at": "Thu 1:32pm PT",
+      "generated_at": "Sun Sep 20, 5:40am PT",
       "audio": null,
-      "day_summary": "Conflict Lab meets 2-5pm. INFO 290T Continual Learning is not on your calendar for Sep 24 and is intentionally excluded pending any later instructor update.",
+      "day_summary": "Conflict Lab meets 2:00-5:00pm in Chou N500. Pick up Nehali at SFO is on the calendar 11:00am-12:30pm, creating a tight return. Instructor says no take-home assignment is due this week; come ready to share somatics takeaways and complete the Class 5 check-in.",
       "courses": [
         {
           "course_id": 1556459,
@@ -731,25 +759,78 @@
           },
           "prep": [
             {
-              "text": "Check the Week 5 bCourses page and latest announcement during the morning refresh for posted preparation",
+              "text": "Reflect on the Somatics class: what you learned about how your body responds to conflict",
+              "optional": false
+            },
+            {
+              "text": "Review the Class 4 slides, Body Sensations Sheet, and your personalized Conflict Styles Report",
+              "optional": false
+            },
+            {
+              "text": "No take-home assignment is due this week; Canvas lists Class 5 as a 5-point participation/check-in item",
               "optional": false
             }
           ],
           "takeaways": [
-            "Session detail and required preparation will be pulled from the course’s Week 5 page, announcements, files, and course email before class."
+            "Long exhales can down-regulate activation and create choice in a difficult conversation.",
+            "Conflict styles are context-dependent; the goal is access to all five, not treating one default as universally right.",
+            "Track body sensations as early data about escalation, then choose a response rather than reacting automatically."
           ],
           "materials": [
             {
-              "title": "Conflict Lab on bCourses",
+              "title": "Class 5 prep announcement",
               "kind": "page",
-              "url": "https://bcourses.berkeley.edu/courses/1556459",
+              "url": "https://bcourses.berkeley.edu/courses/1556459/discussion_topics/7361972",
+              "source": "bCourses"
+            },
+            {
+              "title": "Class 5 check-in",
+              "kind": "page",
+              "url": "https://bcourses.berkeley.edu/courses/1556459/assignments/9130261",
               "source": "bCourses"
             }
           ],
-          "deliverables": []
+          "deliverables": [
+            {
+              "course": "Conflict Lab (MBA 292T)",
+              "title": "Class 5 (9/24)",
+              "due": "2026-09-24T21:00:00Z",
+              "due_label": "Thu Sep 24, 2:00pm",
+              "est_minutes": 20,
+              "points": 5,
+              "assignment_url": "https://bcourses.berkeley.edu/courses/1556459/assignments/9130261",
+              "submit_url": "https://bcourses.berkeley.edu/courses/1556459/assignments/9130261#submit",
+              "status": "upcoming",
+              "instructions": "Canvas lists a Class 5 check-in. Instructor says no assignments are due next week, so treat this as in-class participation/check-in rather than take-home work."
+            }
+          ]
         }
       ],
-      "other_deliverables": []
+      "other_deliverables": [
+        {
+          "course": "INFO 290T - Continual Learning",
+          "title": "Academic Integrity Assignment",
+          "due": "2026-09-26T07:59:00Z",
+          "due_label": "Fri Sep 25, 12:59am",
+          "est_minutes": 10,
+          "points": 1,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9146314",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9146314#submit",
+          "status": "upcoming",
+          "instructions": "Canvas shows this unsubmitted. Complete it to verify course participation."
+        },
+        {
+          "course": "UGBA 196 (you TA)",
+          "title": "Academic Integrity Assignment",
+          "due": "2026-09-26T07:59:00Z",
+          "due_label": "Fri Sep 25, 12:59am",
+          "est_minutes": 10,
+          "points": 1,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1556389/assignments/9145775",
+          "status": "upcoming",
+          "instructions": "Canvas lists this for the course; verify whether it applies to your TA role."
+        }
+      ]
     },
     "2026-09-19": {
       "date": "2026-09-19",
@@ -844,236 +925,648 @@
           "text": "Canvas reported an unpublished Week 13 page linked from the course homepage. This is a teaching-side broken link to fix later, not a student deliverable."
         }
       ]
-    }
-  },
-  "weeks": {
-    "2026-09-21": {
-      "week": "2026-09-21",
-      "range": "Sep 21 - Sep 27",
-      "generated_at": "Thu Sep 17, 10:45am PT",
-      "summary": "Heavy deliverable week: four assignments due Tue-Wed (P&P essay, DFMW model tab, Agentic AI A3, VCPE investment write-ups) plus the Agentic AI A2 overdue. Front-load the weekend.",
-      "total_est_hours": 18,
+    },
+    "2026-09-20": {
+      "date": "2026-09-20",
+      "generated_at": "Sun Sep 20, 5:40am PT",
+      "audio": null,
+      "day_summary": "No classes today. Berkeley Base Camp ends at 11am, then your calendar blocks 11:00am-2:25pm to drive home. The course priority is the Power & Politics essay due Monday at 4:10pm; after that, stage Tuesday’s Financial Models and Agentic AI submissions.",
+      "courses": [],
+      "other_deliverables": [
+        {
+          "course": "Agentic AI (MBA 290T)",
+          "title": "Assignment 2",
+          "due": "2026-09-16T06:59:59Z",
+          "due_label": "OVERDUE - was due Tue Sep 15, 11:59pm",
+          "est_minutes": 45,
+          "points": 10,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935#submit",
+          "status": "overdue",
+          "instructions": "Canvas still shows unsubmitted. Complete it if the late window remains open."
+        },
+        {
+          "course": "Power & Politics (MBA 254)",
+          "title": "Assignment 2: Relating Self-Reflection",
+          "due": "2026-09-21T23:10:00Z",
+          "due_label": "Mon Sep 21, 4:10pm",
+          "est_minutes": 120,
+          "points": 10,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114072",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114072#submit",
+          "status": "upcoming",
+          "instructions": "2-page essay on the relational attribute you most need to improve, 2-3 behaviors to change, and how you will overcome blockers."
+        },
+        {
+          "course": "Financial Models (MBA 236G)",
+          "title": "Homework 3 - Individual Model",
+          "due": "2026-09-22T21:00:00Z",
+          "due_label": "Tue Sep 22, 2:00pm",
+          "est_minutes": 150,
+          "points": 6,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1559172/assignments/9139844",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1559172/assignments/9139844#submit",
+          "status": "upcoming",
+          "instructions": "Build one tab of your HW1 model using DFMW design rules; identify the target audience and at least one labeled output."
+        },
+        {
+          "course": "Agentic AI (MBA 290T)",
+          "title": "Assignment 3",
+          "due": "2026-09-23T06:59:59Z",
+          "due_label": "Tue Sep 22, 11:59pm",
+          "est_minutes": 60,
+          "points": 10,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938#submit",
+          "status": "upcoming",
+          "instructions": "Run all 48 provided evals before and after training, extend the corpus, compare results, and keep evals out of training data."
+        },
+        {
+          "course": "VC & PE (MBA 295B)",
+          "title": "Assignment 2: Investment Opportunity Selection & Mentor Assignment",
+          "due": "2026-09-23T19:00:00Z",
+          "due_label": "Wed Sep 23, 12:00pm",
+          "est_minutes": 150,
+          "points": 5,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951#submit",
+          "status": "upcoming",
+          "instructions": "Write two one-page investment opportunities plus team memo. Contact your assigned mentor and flag scheduling trouble."
+        },
+        {
+          "course": "Conflict Lab (MBA 292T)",
+          "title": "Class 5 (9/24)",
+          "due": "2026-09-24T21:00:00Z",
+          "due_label": "Thu Sep 24, 2:00pm",
+          "est_minutes": 20,
+          "points": 5,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1556459/assignments/9130261",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1556459/assignments/9130261#submit",
+          "status": "upcoming",
+          "instructions": "Canvas lists a Class 5 check-in. Instructor says no assignments are due next week, so treat this as in-class participation/check-in rather than take-home work."
+        },
+        {
+          "course": "INFO 290T - Continual Learning",
+          "title": "Academic Integrity Assignment",
+          "due": "2026-09-26T07:59:00Z",
+          "due_label": "Fri Sep 25, 12:59am",
+          "est_minutes": 10,
+          "points": 1,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9146314",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9146314#submit",
+          "status": "upcoming",
+          "instructions": "Canvas shows this unsubmitted. Complete it to verify course participation."
+        },
+        {
+          "course": "UGBA 196 (you TA)",
+          "title": "Academic Integrity Assignment",
+          "due": "2026-09-26T07:59:00Z",
+          "due_label": "Fri Sep 25, 12:59am",
+          "est_minutes": 10,
+          "points": 1,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1556389/assignments/9145775",
+          "status": "upcoming",
+          "instructions": "Canvas lists this for the course; verify whether it applies to your TA role."
+        }
+      ],
+      "notices": [
+        {
+          "title": "Live Canvas status checked",
+          "text": "Canvas still shows Agentic AI Assignment 2 and the next five student deadlines unsubmitted. Conflict Lab says no take-home assignment is due this week; Class 5 is listed as a participation/check-in item."
+        },
+        {
+          "title": "Midterm course evaluations",
+          "text": "Berkeley Course Evaluations emailed that midterm evaluations are available today."
+        }
+      ]
+    },
+    "2026-09-23": {
+      "date": "2026-09-23",
+      "generated_at": "Sun Sep 20, 5:40am PT",
+      "audio": null,
+      "day_summary": "Four class blocks overlap late in the day: Managing Technological Innovation 10:10-11:40am, Financial Models 2:00-4:00pm, Power & Politics 4:00-6:00pm, and VC & PE 6:00-9:30pm. The VC/PE investment assignment is due at noon; UGBA 196 student reflection is due 10am.",
       "courses": [
         {
+          "course_id": 1556389,
+          "name": "Managing Technological Innovation",
+          "short": "Managing Tech Innovation",
+          "code": "UGBA 196",
+          "status": "enrolled",
+          "meeting": {
+            "label": "10:10-11:40am",
+            "location": "Calendar listing"
+          },
+          "prep": [
+            {
+              "text": "Review the session readings on dominant designs, standards battles, and current developments",
+              "optional": false
+            },
+            {
+              "text": "As GSI/TA, be ready for the student reflection due at 10am and the grading queue",
+              "optional": false
+            }
+          ],
+          "takeaways": [
+            "Dominant designs reduce product uncertainty but shift competition toward process, scale, complements, and standards.",
+            "Standards battles turn on installed base, complements, switching costs, sponsorship, and expectations."
+          ],
+          "materials": [
+            {
+              "title": "Dominant Designs and Standards Battles / Current Developments",
+              "kind": "page",
+              "url": "https://bcourses.berkeley.edu/courses/1556389/assignments/9102052",
+              "source": "bCourses"
+            }
+          ],
+          "deliverables": []
+        },
+        {
+          "course_id": 1559172,
+          "name": "Designing Financial Models that Work",
+          "short": "Financial Models",
+          "code": "MBA 236G",
+          "status": "enrolled",
+          "meeting": {
+            "label": "2:00-4:00pm",
+            "location": "Cheit C110"
+          },
+          "prep": [
+            {
+              "text": "Bring the HW3 individual model you submitted Tuesday; classmates may review it",
+              "optional": false
+            }
+          ],
+          "takeaways": [
+            "Expect model review through the lens of audience, readable structure, clear assumptions, and a decision-useful output."
+          ],
+          "materials": [
+            {
+              "title": "Homework 3 - Individual Model",
+              "kind": "page",
+              "url": "https://bcourses.berkeley.edu/courses/1559172/assignments/9139844",
+              "source": "bCourses"
+            }
+          ],
+          "deliverables": []
+        },
+        {
+          "course_id": 1555457,
           "name": "Power and Politics in Organizations",
           "short": "Power & Politics",
           "code": "MBA 254",
-          "sessions": [
-            "Mon 4:00-6:00pm, Chou N370",
-            "Wed 4:00-6:00pm, Chou N370"
-          ],
-          "agenda": "Mon (Class 8): Persuasion Part 1 - System 1 vs System 2 thinking, persuading through System 2. Bring your laptop for the Cajoling Campbell exercise. Wed (Class 9): Persuasion Part 2 - persuading through System 1, workshopping your Ask.",
-          "readings": [
-            "The Ask: pick something you genuinely want to persuade someone to do, where you're not confident they'll say yes - bring it to class Monday",
-            "Wed: revise your Ask after Monday's System 2 discussion (pull strategy, their desired outcome, autonomy)"
-          ],
-          "deliverables": [
+          "status": "enrolled",
+          "meeting": {
+            "label": "4:00-6:00pm",
+            "location": "Chou N370"
+          },
+          "prep": [
             {
-              "title": "Assignment 2: Relating Self-Reflection (2-page essay)",
-              "due_label": "Mon Sep 21, 4:10pm",
-              "est_minutes": 120,
-              "points": 10,
-              "assignment_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114072",
-              "submit_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114072",
-              "status": "upcoming"
-            },
-            {
-              "title": "Assignment 3: Executive Coaching Session Video + Worksheet",
-              "due_label": "Sun Sep 28, 4:10pm",
-              "est_minutes": 90,
-              "points": 10,
-              "assignment_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114073",
-              "submit_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114073",
-              "status": "upcoming",
-              "instructions": "Record a 2-4 min video; upload via Box, not bCourses."
+              "text": "Carry forward Monday’s Ask and persuasion work; check the Class 9 page before Wednesday for any newly posted action",
+              "optional": false
             }
           ],
-          "est_hours": 3.5
-        },
-        {
-          "name": "Designing Financial Models that Work",
-          "short": "Financial Models (DFMW)",
-          "code": "MBA 236G",
-          "sessions": [
-            "Wed 2:00-4:00pm, Cheit C110"
+          "takeaways": [
+            "The week moves from relationships into influence; connect credibility and relational capital to the persuasion choices you make."
           ],
-          "agenda": "Week 4: Sensitivity Analysis & More - scenarios part 2, data tables, quick peer reviews of HW3 models, chart design. HW4 (paired cash burn model) kicks off.",
-          "readings": [
-            "Scenarios part 2 (Excel demo file on the Week 4 page)",
-            "Chart design tips + chart picker tool"
-          ],
-          "deliverables": [
+          "materials": [
             {
-              "title": "Homework 3 - Individual Model (one Excel tab, DFMW style guide)",
-              "due_label": "Tue Sep 22, 2:00pm",
-              "est_minutes": 150,
-              "points": 6,
-              "assignment_url": "https://bcourses.berkeley.edu/courses/1559172/assignments/9139844",
-              "submit_url": "https://bcourses.berkeley.edu/courses/1559172/assignments/9139844",
-              "status": "upcoming"
+              "title": "Course home",
+              "kind": "page",
+              "url": "https://bcourses.berkeley.edu/courses/1555457",
+              "source": "bCourses"
             }
           ],
-          "est_hours": 3
+          "deliverables": []
         },
         {
+          "course_id": 1556685,
           "name": "Venture Capital and Private Equity",
           "short": "VC & PE",
           "code": "MBA 295B",
-          "sessions": [
-            "Wed 6:00-9:30pm, Chou N570"
+          "status": "enrolled",
+          "meeting": {
+            "label": "6:00-9:30pm",
+            "location": "N570"
+          },
+          "prep": [
+            {
+              "text": "Submit Assignment 2 by noon: two one-page real investment opportunities plus the team memo",
+              "optional": false
+            },
+            {
+              "text": "Reach out to your assigned mentor; notify the teaching team if scheduling is difficult",
+              "optional": false
+            }
           ],
-          "agenda": "Class 5: Valuation for venture capital, applied to the Mekasutra Games first institutional round case.",
-          "readings": [
-            "Note on Valuation for Venture Capital (PDF)",
-            "Mekasutra Games First Institutional Round 2020 (case)"
+          "takeaways": [
+            "A useful opportunity memo is sober, specific, and explicit about business model, attraction, and risk.",
+            "You do not need to contact companies this week; follow Assignment 2 only."
+          ],
+          "materials": [
+            {
+              "title": "Assignment 2",
+              "kind": "page",
+              "url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951",
+              "source": "bCourses"
+            },
+            {
+              "title": "Mentor introduction announcement",
+              "kind": "page",
+              "url": "https://bcourses.berkeley.edu/courses/1556685/discussion_topics/7361289",
+              "source": "bCourses"
+            }
           ],
           "deliverables": [
             {
+              "course": "VC & PE (MBA 295B)",
               "title": "Assignment 2: Investment Opportunity Selection & Mentor Assignment",
+              "due": "2026-09-23T19:00:00Z",
               "due_label": "Wed Sep 23, 12:00pm",
               "est_minutes": 150,
               "points": 5,
               "assignment_url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951",
-              "submit_url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951",
+              "submit_url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951#submit",
               "status": "upcoming",
-              "instructions": "Two 1-page investment write-ups (real companies you could actually reach out to) + 2-page team memo."
+              "instructions": "Write two one-page investment opportunities plus team memo. Contact your assigned mentor and flag scheduling trouble."
+            }
+          ]
+        }
+      ],
+      "other_deliverables": [
+        {
+          "course": "UGBA 196 (you TA)",
+          "title": "[Due 9/23] Assignment: Reflection from class",
+          "due": "2026-09-23T17:00:00Z",
+          "due_label": "Wed Sep 23, 10:00am",
+          "est_minutes": 60,
+          "points": 5,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1556389/assignments/9150503",
+          "status": "upcoming",
+          "instructions": "Student submissions due; plan the grading queue."
+        },
+        {
+          "course": "Agentic AI (MBA 290T)",
+          "title": "Assignment 2",
+          "due": "2026-09-16T06:59:59Z",
+          "due_label": "OVERDUE - was due Tue Sep 15, 11:59pm",
+          "est_minutes": 45,
+          "points": 10,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935#submit",
+          "status": "overdue",
+          "instructions": "Canvas still shows unsubmitted. Complete it if the late window remains open."
+        },
+        {
+          "course": "Agentic AI (MBA 290T)",
+          "title": "Assignment 3",
+          "due": "2026-09-23T06:59:59Z",
+          "due_label": "Tue Sep 22, 11:59pm",
+          "est_minutes": 60,
+          "points": 10,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938#submit",
+          "status": "upcoming",
+          "instructions": "Run all 48 provided evals before and after training, extend the corpus, compare results, and keep evals out of training data."
+        },
+        {
+          "course": "INFO 290T - Continual Learning",
+          "title": "Academic Integrity Assignment",
+          "due": "2026-09-26T07:59:00Z",
+          "due_label": "Fri Sep 25, 12:59am",
+          "est_minutes": 10,
+          "points": 1,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9146314",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9146314#submit",
+          "status": "upcoming",
+          "instructions": "Canvas shows this unsubmitted. Complete it to verify course participation."
+        },
+        {
+          "course": "UGBA 196 (you TA)",
+          "title": "Academic Integrity Assignment",
+          "due": "2026-09-26T07:59:00Z",
+          "due_label": "Fri Sep 25, 12:59am",
+          "est_minutes": 10,
+          "points": 1,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1556389/assignments/9145775",
+          "status": "upcoming",
+          "instructions": "Canvas lists this for the course; verify whether it applies to your TA role."
+        }
+      ],
+      "notices": []
+    },
+    "2026-09-25": {
+      "date": "2026-09-25",
+      "generated_at": "Sun Sep 20, 5:40am PT",
+      "audio": null,
+      "day_summary": "No regular MBA class on the calendar. Stuart Russell’s AI lecture is 12:00-2:00pm in Berkeley Law 141. Two Academic Integrity items need attention by 12:59am Friday night: enrolled INFO 290T is definitely unsubmitted; UGBA 196 appears in Canvas and may be role-dependent.",
+      "courses": [
+        {
+          "course_id": null,
+          "name": "Stuart Russell AI Lecture",
+          "short": "Stuart Russell AI Lecture",
+          "code": "Calendar-only",
+          "status": "enrolled",
+          "meeting": {
+            "label": "12:00-2:00pm",
+            "location": "Berkeley Law, Room 141"
+          },
+          "prep": [
+            {
+              "text": "Arrive by 12:15pm lecture start; lunch is available from 11:45am",
+              "optional": true
+            }
+          ],
+          "takeaways": [
+            "Treat this as a calendar-only learning session; no Canvas preparation or deliverable was found."
+          ],
+          "materials": [],
+          "deliverables": []
+        }
+      ],
+      "other_deliverables": [
+        {
+          "course": "INFO 290T - Continual Learning",
+          "title": "Academic Integrity Assignment",
+          "due": "2026-09-26T07:59:00Z",
+          "due_label": "Fri Sep 25, 12:59am",
+          "est_minutes": 10,
+          "points": 1,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9146314",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9146314#submit",
+          "status": "upcoming",
+          "instructions": "Canvas shows this unsubmitted. Complete it to verify course participation."
+        },
+        {
+          "course": "UGBA 196 (you TA)",
+          "title": "Academic Integrity Assignment",
+          "due": "2026-09-26T07:59:00Z",
+          "due_label": "Fri Sep 25, 12:59am",
+          "est_minutes": 10,
+          "points": 1,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1556389/assignments/9145775",
+          "status": "upcoming",
+          "instructions": "Canvas lists this for the course; verify whether it applies to your TA role."
+        }
+      ],
+      "notices": []
+    },
+    "2026-09-26": {
+      "date": "2026-09-26",
+      "generated_at": "Sun Sep 20, 5:40am PT",
+      "audio": null,
+      "day_summary": "No classes. Calendar shows an overnight stay at Hidden Vista House and “Night out with 6 of us.” Use the day to recover or start Monday’s Power & Politics coaching assignment due Sep 28.",
+      "courses": [],
+      "other_deliverables": [
+        {
+          "course": "Power & Politics (MBA 254)",
+          "title": "Assignment 3: Executive Coaching Session Video and Worksheet",
+          "due": "2026-09-28T23:10:00Z",
+          "due_label": "Mon Sep 28, 4:10pm",
+          "est_minutes": 120,
+          "points": 10,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114073",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114073#submit",
+          "status": "upcoming"
+        }
+      ],
+      "notices": []
+    },
+    "2026-09-27": {
+      "date": "2026-09-27",
+      "generated_at": "Sun Sep 20, 5:40am PT",
+      "audio": null,
+      "day_summary": "No classes. Protect time to finish the Power & Politics coaching video and worksheet due Monday at 4:10pm, then preview next week’s Agentic AI and Financial Models work.",
+      "courses": [],
+      "other_deliverables": [
+        {
+          "course": "Power & Politics (MBA 254)",
+          "title": "Assignment 3: Executive Coaching Session Video and Worksheet",
+          "due": "2026-09-28T23:10:00Z",
+          "due_label": "Mon Sep 28, 4:10pm",
+          "est_minutes": 120,
+          "points": 10,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114073",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114073#submit",
+          "status": "upcoming"
+        }
+      ],
+      "notices": []
+    }
+  },
+  "weeks": {
+    "2026-09-21": {
+      "range": "Sep 21-27",
+      "generated_at": "Sun Sep 20, 5:40am PT",
+      "summary": "A deadline-heavy front half: P&P essay Monday; Financial Models and Agentic AI Tuesday; VC/PE Wednesday; Conflict Lab Thursday; two Academic Integrity checks by early Friday. Calendar shows 11 course sessions including overlaps Tuesday and Wednesday.",
+      "total_est_hours": 12.5,
+      "courses": [
+        {
+          "short": "Power & Politics",
+          "sessions": [
+            "Mon 4:00-6:00pm",
+            "Wed 4:00-6:00pm"
+          ],
+          "agenda": "Influence and persuasion after the Relating block.",
+          "readings": [
+            "Complete Assignment 2; prepare a genuine Ask; bring laptop."
+          ],
+          "deliverables": [
+            {
+              "course": "Power & Politics (MBA 254)",
+              "title": "Assignment 2: Relating Self-Reflection",
+              "due": "2026-09-21T23:10:00Z",
+              "due_label": "Mon Sep 21, 4:10pm",
+              "est_minutes": 120,
+              "points": 10,
+              "assignment_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114072",
+              "submit_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114072#submit",
+              "status": "upcoming",
+              "instructions": "2-page essay on the relational attribute you most need to improve, 2-3 behaviors to change, and how you will overcome blockers."
+            },
+            {
+              "course": "Power & Politics (MBA 254)",
+              "title": "Assignment 3: Executive Coaching Session Video and Worksheet",
+              "due": "2026-09-28T23:10:00Z",
+              "due_label": "Mon Sep 28, 4:10pm",
+              "est_minutes": 120,
+              "points": 10,
+              "assignment_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114073",
+              "submit_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114073#submit",
+              "status": "upcoming"
             }
           ],
           "est_hours": 3.5
         },
         {
-          "name": "Fundamentals of Agentic AI",
-          "short": "Agentic AI",
-          "code": "MBA 290T",
+          "short": "Continual Learning in AI",
           "sessions": [
-            "Tue 4:00-6:00pm, Chou N570"
+            "Tue 9:30-11:00am"
           ],
-          "agenda": "Week 5: LLM Behavior, Prompting & Retrieval - temperature as steering dial, fine-tuning vs LoRA vs prompting, instruction hierarchy, context rot, hallucination defenses, RAG chunking/grounding, embeddings and hybrid search.",
+          "agenda": "Evaluation protocols, retention, and adaptation.",
           "readings": [
-            "Pre-class materials on the Week 5 page (bcourses)",
-            "Companion site: haas-ai-classes.vercel.app"
+            "De Lange et al. evaluation sections."
           ],
           "deliverables": [
             {
-              "title": "Assignment 2 (OVERDUE - was due Tue Sep 15)",
-              "due_label": "OVERDUE",
-              "est_minutes": 45,
-              "points": 10,
-              "assignment_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935",
-              "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935",
-              "status": "overdue"
-            },
-            {
-              "title": "Assignment 3",
-              "due_label": "Tue Sep 22, 11:59pm",
-              "est_minutes": 60,
-              "points": 10,
-              "assignment_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938",
-              "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938",
-              "status": "upcoming"
-            }
-          ],
-          "est_hours": 2
-        },
-        {
-          "name": "Difficult Conversations: Conflict Lab",
-          "short": "Conflict Lab",
-          "code": "MBA 292T",
-          "sessions": [
-            "Thu 2:00-5:00pm, Chou Hall N500"
-          ],
-          "agenda": "Class 5 case study: Apologies - intent vs impact, a framework for apologizing, what is and isn't productive, impact as it relates to identity.",
-          "readings": [
-            "Prepare for a High-Stakes Conversation (Week 5 page)",
-            "Feelings and sensations document - note that some listed 'feelings' are interpretations"
-          ],
-          "deliverables": [
-            {
-              "title": "Deliverable 2: Difficult Conversations in the Media",
-              "due_label": "Wed Oct 7, 8:00pm",
-              "est_minutes": 90,
-              "points": 15,
-              "assignment_url": "https://bcourses.berkeley.edu/courses/1556459/assignments/9102728",
-              "submit_url": "https://bcourses.berkeley.edu/courses/1556459/assignments/9102728",
-              "status": "upcoming"
+              "course": "INFO 290T - Continual Learning",
+              "title": "Academic Integrity Assignment",
+              "due": "2026-09-26T07:59:00Z",
+              "due_label": "Fri Sep 25, 12:59am",
+              "est_minutes": 10,
+              "points": 1,
+              "assignment_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9146314",
+              "submit_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9146314#submit",
+              "status": "upcoming",
+              "instructions": "Canvas shows this unsubmitted. Complete it to verify course participation."
             }
           ],
           "est_hours": 1.5
         },
         {
-          "name": "Continual Learning in AI",
-          "short": "Continual Learning",
-          "code": "INFO 290T",
+          "short": "Agentic AI",
           "sessions": [
-            "Tue 9:30-11:00am, South Hall 210"
+            "Tue 4:00-6:00pm"
           ],
-          "agenda": "Tue Sep 22: Evaluation and benchmarks for continual learning. No Sep 24 meeting is on Devansh’s course calendar; do not assume a Thursday session from the generic Tu/Th pattern.",
+          "agenda": "Week 5: LLM behavior, prompting, retrieval, and RAG.",
           "readings": [
-            "Tue Sep 22: De Lange et al., A Continual Learning Survey - evaluation sections"
+            "Pre-class materials on the Week 5 page."
           ],
           "deliverables": [
             {
-              "title": "HW1: Personal Speech Eval Set + Baseline",
-              "due_label": "Thu Oct 1, 11:59pm",
-              "est_minutes": 180,
-              "assignment_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9150097",
-              "submit_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9150097",
-              "status": "upcoming"
+              "course": "Agentic AI (MBA 290T)",
+              "title": "Assignment 2",
+              "due": "2026-09-16T06:59:59Z",
+              "due_label": "OVERDUE - was due Tue Sep 15, 11:59pm",
+              "est_minutes": 45,
+              "points": 10,
+              "assignment_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935",
+              "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935#submit",
+              "status": "overdue",
+              "instructions": "Canvas still shows unsubmitted. Complete it if the late window remains open."
+            },
+            {
+              "course": "Agentic AI (MBA 290T)",
+              "title": "Assignment 3",
+              "due": "2026-09-23T06:59:59Z",
+              "due_label": "Tue Sep 22, 11:59pm",
+              "est_minutes": 60,
+              "points": 10,
+              "assignment_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938",
+              "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938#submit",
+              "status": "upcoming",
+              "instructions": "Run all 48 provided evals before and after training, extend the corpus, compare results, and keep evals out of training data."
+            }
+          ],
+          "est_hours": 2
+        },
+        {
+          "short": "UGBA 196",
+          "sessions": [
+            "Tue 4:30-5:20pm",
+            "Wed 10:10-11:40am"
+          ],
+          "agenda": "Your section plus Managing Technological Innovation.",
+          "readings": [
+            "Dominant designs and standards battles; prepare for the reflection/grading queue."
+          ],
+          "deliverables": [
+            {
+              "title": "[Due 9/23] Assignment: Reflection from class",
+              "due": "2026-09-23T17:00:00Z",
+              "due_label": "Wed 10:00am",
+              "course": "UGBA 196",
+              "status": "upcoming",
+              "assignment_url": "https://bcourses.berkeley.edu/courses/1556389/assignments/9150503"
+            }
+          ],
+          "est_hours": 1.5
+        },
+        {
+          "short": "Financial Models",
+          "sessions": [
+            "Wed 2:00-4:00pm"
+          ],
+          "agenda": "Peer-facing review of individual models.",
+          "readings": [
+            "Complete one HW1 tab using DFMW rules and label audience/output."
+          ],
+          "deliverables": [
+            {
+              "course": "Financial Models (MBA 236G)",
+              "title": "Homework 3 - Individual Model",
+              "due": "2026-09-22T21:00:00Z",
+              "due_label": "Tue Sep 22, 2:00pm",
+              "est_minutes": 150,
+              "points": 6,
+              "assignment_url": "https://bcourses.berkeley.edu/courses/1559172/assignments/9139844",
+              "submit_url": "https://bcourses.berkeley.edu/courses/1559172/assignments/9139844#submit",
+              "status": "upcoming",
+              "instructions": "Build one tab of your HW1 model using DFMW design rules; identify the target audience and at least one labeled output."
             }
           ],
           "est_hours": 2.5
         },
         {
-          "name": "Managing Technological Innovation (you TA)",
-          "short": "UGBA 196 (TA)",
-          "code": "UGBA 196",
+          "short": "VC & PE",
           "sessions": [
-            "Lecture Wed 10:10-11:40am",
-            "Your section Tue 4:30-5:20pm"
+            "Wed 6:00-9:30pm"
           ],
-          "agenda": "This week for students: Dominant Designs and Standards Battles / Current Developments; Nicole's guest session reflection due Wed 10am.",
+          "agenda": "Investment opportunity selection and mentor coordination.",
           "readings": [
-            "Students have required + optional readings on dominant designs - worth skimming so you can field questions in section"
+            "Two one-page opportunities plus team memo; contact mentor."
           ],
           "deliverables": [
             {
-              "title": "Grading: M.E.T. Trading Card (53 ungraded)",
-              "due_label": "53 pending",
-              "est_minutes": 120,
-              "assignment_url": "https://bcourses.berkeley.edu/courses/1556389/assignments/9102052",
-              "status": "upcoming"
-            },
-            {
-              "title": "Grading: Timex Case Analysis (49 ungraded)",
-              "due_label": "49 pending",
-              "est_minutes": 120,
-              "assignment_url": "https://bcourses.berkeley.edu/courses/1556389/assignments/9102052",
-              "status": "upcoming"
+              "course": "VC & PE (MBA 295B)",
+              "title": "Assignment 2: Investment Opportunity Selection & Mentor Assignment",
+              "due": "2026-09-23T19:00:00Z",
+              "due_label": "Wed Sep 23, 12:00pm",
+              "est_minutes": 150,
+              "points": 5,
+              "assignment_url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951",
+              "submit_url": "https://bcourses.berkeley.edu/courses/1556685/assignments/9104951#submit",
+              "status": "upcoming",
+              "instructions": "Write two one-page investment opportunities plus team memo. Contact your assigned mentor and flag scheduling trouble."
             }
           ],
-          "est_hours": 4
+          "est_hours": 3
         },
         {
-          "name": "Building Trust-Based Relationships",
-          "short": "Trust-Based Relationships",
-          "code": "MBA 291R",
+          "short": "Conflict Lab",
           "sessions": [
-            "No sessions this week"
+            "Thu 2:00-5:00pm"
           ],
-          "agenda": "Pre-course work only.",
-          "readings": [],
+          "agenda": "Class 5 builds on somatics and conflict-style flexibility.",
+          "readings": [
+            "Reflect on body response; review Class 4 slides, Body Sensations Sheet, and personalized report."
+          ],
           "deliverables": [
             {
-              "title": "Pre-Course Learning Objective (chat + reflection artifact)",
-              "due_label": "Thu Oct 1, 11:59pm",
-              "est_minutes": 30,
-              "points": 1,
-              "assignment_url": "https://bcourses.berkeley.edu/courses/1555560/assignments/9139312",
-              "submit_url": "https://bcourses.berkeley.edu/courses/1555560/assignments/9139312",
-              "status": "upcoming"
+              "course": "Conflict Lab (MBA 292T)",
+              "title": "Class 5 (9/24)",
+              "due": "2026-09-24T21:00:00Z",
+              "due_label": "Thu Sep 24, 2:00pm",
+              "est_minutes": 20,
+              "points": 5,
+              "assignment_url": "https://bcourses.berkeley.edu/courses/1556459/assignments/9130261",
+              "submit_url": "https://bcourses.berkeley.edu/courses/1556459/assignments/9130261#submit",
+              "status": "upcoming",
+              "instructions": "Canvas lists a Class 5 check-in. Instructor says no assignments are due next week, so treat this as in-class participation/check-in rather than take-home work."
             }
           ],
-          "est_hours": 0.5
+          "est_hours": 1
+        },
+        {
+          "short": "Stuart Russell AI Lecture",
+          "sessions": [
+            "Fri 12:00-2:00pm"
+          ],
+          "agenda": "Calendar-only AI lecture at Berkeley Law 141.",
+          "readings": [
+            "No Canvas prep found."
+          ],
+          "deliverables": [],
+          "est_hours": 0
         }
       ]
     }
