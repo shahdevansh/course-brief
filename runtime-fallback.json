@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-20T05:40:00-07:00",
+  "updated_at": "2026-09-21T05:40:00-07:00",
   "days": {
     "2026-09-17": {
       "date": "2026-09-17",
@@ -358,8 +358,8 @@
     },
     "2026-09-21": {
       "date": "2026-09-21",
-      "generated_at": "Sun Sep 20, 5:40am PT",
-      "day_summary": "Power & Politics meets 4:00-6:00pm in Chou N370. Submit the Relating Self-Reflection essay by 4:10pm, prepare a real Ask, and bring your laptop. Canvas still shows the essay unsubmitted.",
+      "generated_at": "Mon Sep 21, 5:40am PT",
+      "day_summary": "Power & Politics meets 4:00-6:00pm in Chou N370. Use the 8:00-10:00am focus block for the Relating Self-Reflection essay, still unsubmitted and due at 4:10pm. Prepare a genuine Ask and bring your laptop. GSI work is blocked 11:00am-noon.",
       "courses": [
         {
           "course_id": 1555457,
@@ -369,7 +369,8 @@
           "status": "enrolled",
           "meeting": {
             "label": "4:00-6:00pm",
-            "location": "Chou N370"
+            "location": "Chou N370",
+            "calendar_url": "https://www.google.com/calendar/event?eid=MzZrcDU1NHZiYjF2M2g2a2Y3ZWc0dXZlNThfMjAyNjA5MjFUMjMwMDAwWiBkZXZhbnNoLnNoYWhAYmVya2VsZXkuZWR1&authuser=devansh.shah%40berkeley.edu"
           },
           "prep": [
             {
@@ -406,7 +407,7 @@
               "est_minutes": 120,
               "points": 10,
               "assignment_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114072",
-              "submit_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114072",
+              "submit_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114072#submit",
               "status": "due_today",
               "instructions": "2-page essay: pick from credibility, advocacy, trustworthiness, openness, personability - which to improve, why, 2-3 specific behaviors to change, and your plan for overcoming internal blockers."
             }
@@ -498,12 +499,22 @@
           "instructions": "Canvas lists this for the course; verify whether it applies to your TA role."
         }
       ],
-      "audio": null
+      "audio": null,
+      "notices": [
+        {
+          "title": "Live Canvas status checked",
+          "text": "The P&P essay, Agentic AI Assignment 2, Financial Models HW3, Agentic AI Assignment 3, and VC/PE Assignment 2 still show unsubmitted."
+        },
+        {
+          "title": "Tomorrow’s Financial Models prep",
+          "text": "Instructor says Wednesday attendance matters for an in-class exercise. New resources: DFMW AI formatting prompt, HW2 sample solutions, and an 800-review coaching/shaper summary."
+        }
+      ]
     },
     "2026-09-22": {
       "date": "2026-09-22",
-      "generated_at": "Sun Sep 20, 5:40am PT",
-      "day_summary": "Three sessions on the live calendar: enrolled INFO 290T Continual Learning 9:30-11:00am, Agentic AI 4:00-6:00pm, and your UGBA 196.1 section 4:30-5:20pm. Financial Models HW3 is due 2pm and Agentic AI Assignment 3 at 11:59pm; both still show unsubmitted.",
+      "generated_at": "Mon Sep 21, 5:40am PT",
+      "day_summary": "Three course sessions: enrolled INFO 290T 9:30-11:00am, Agentic AI 4:00-6:00pm, and your UGBA 196.1 section 4:30-5:20pm. Financial Models HW3 is due 2pm and Agentic AI Assignment 3 at 11:59pm; both remain unsubmitted. A 3:30pm VC/PE work hold is on the calendar if needed.",
       "courses": [
         {
           "course_id": 1558849,
@@ -739,7 +750,13 @@
           "instructions": "Canvas lists this for the course; verify whether it applies to your TA role."
         }
       ],
-      "audio": null
+      "audio": null,
+      "notices": [
+        {
+          "title": "Financial Models resources and Wednesday attendance",
+          "text": "HW3 is due Tuesday 2pm. Jenny posted DFMW AI formatting instructions, HW2 sample solutions, and an 800-review summary. Tell her ASAP if you will miss or switch Wednesday’s assigned section because the class exercise depends on attendance."
+        }
+      ]
     },
     "2026-09-24": {
       "date": "2026-09-24",
@@ -1058,24 +1075,54 @@
           },
           "prep": [
             {
-              "text": "Review the session readings on dominant designs, standards battles, and current developments",
+              "text": "Skim Shilling Chapter 4: Standards Battles and Design Dominance",
               "optional": false
             },
             {
-              "text": "As GSI/TA, be ready for the student reflection due at 10am and the grading queue",
+              "text": "Skim NVIDIA on small language models for agentic AI; LLMs vs other AI architectures; IBM on multimodal models; and the “95% of AI pilots fail” article",
               "optional": false
+            },
+            {
+              "text": "Optional: skim The Art of Standards Wars PDF; send the reader any relevant current article for possible participation points",
+              "optional": true
             }
           ],
           "takeaways": [
-            "Dominant designs reduce product uncertainty but shift competition toward process, scale, complements, and standards.",
-            "Standards battles turn on installed base, complements, switching costs, sponsorship, and expectations."
+            "Guiding question: how are dominant designs selected, and how do firms engage in standards battles?",
+            "Apply this to AI: generalist foundation models plus apps versus vertical optimized models, and which firms can set a durable standard.",
+            "Compare AI form factors, model types, uses, complements, installed base, switching costs, and expectations."
           ],
           "materials": [
             {
-              "title": "Dominant Designs and Standards Battles / Current Developments",
-              "kind": "page",
-              "url": "https://bcourses.berkeley.edu/courses/1556389/assignments/9102052",
-              "source": "bCourses"
+              "title": "NVIDIA: Small Language Models are the Future of Agentic AI",
+              "kind": "link",
+              "url": "https://research.nvidia.com/labs/lpr/slm-agents/",
+              "source": "course calendar"
+            },
+            {
+              "title": "LLMs vs other AI models",
+              "kind": "link",
+              "url": "https://metadesignsolutions.com/llms-vs-other-ai-models-choosing-the-right-ai-architecture-for-your-business/",
+              "source": "course calendar"
+            },
+            {
+              "title": "IBM: Multimodal AI",
+              "kind": "link",
+              "url": "https://www.ibm.com/think/topics/multimodal-ai",
+              "source": "course calendar"
+            },
+            {
+              "title": "Why 95% of AI Pilots Fail",
+              "kind": "link",
+              "url": "https://www.forbes.com/sites/andreahill/2025/08/21/why-95-of-ai-pilots-fail-and-what-business-leaders-should-do-instead/",
+              "source": "course calendar"
+            },
+            {
+              "title": "The Art of Standards Wars - uploaded PDF",
+              "kind": "pdf",
+              "url": "https://bcourses.berkeley.edu/courses/1556389/files/94943495/download?download_frd=1",
+              "source": "bCourses",
+              "note": "optional"
             }
           ],
           "deliverables": []
@@ -1092,8 +1139,16 @@
           },
           "prep": [
             {
-              "text": "Bring the HW3 individual model you submitted Tuesday; classmates may review it",
+              "text": "Submit HW3 by Tuesday 2pm and bring the model to class; this session has an attendance-sensitive in-class exercise",
               "optional": false
+            },
+            {
+              "text": "If absent or changing sections, tell Jenny through the contact form ASAP",
+              "optional": false
+            },
+            {
+              "text": "Review the new DFMW AI formatting prompt and HW2 sample solutions",
+              "optional": true
             }
           ],
           "takeaways": [
@@ -1101,9 +1156,21 @@
           ],
           "materials": [
             {
-              "title": "Homework 3 - Individual Model",
+              "title": "DFMW Map of the Universe - Class 3",
               "kind": "page",
-              "url": "https://bcourses.berkeley.edu/courses/1559172/assignments/9139844",
+              "url": "https://bcourses.berkeley.edu/courses/1559172/pages/dfmw-map-of-the-universe-class-3",
+              "source": "bCourses"
+            },
+            {
+              "title": "AI formatting resources",
+              "kind": "page",
+              "url": "https://bcourses.berkeley.edu/courses/1559172/pages/ai-formatting-resources",
+              "source": "bCourses"
+            },
+            {
+              "title": "HW2 coaching + shaper model review summary",
+              "kind": "pdf",
+              "url": "https://bcourses.berkeley.edu/courses/1559172/files/95279502/download?download_frd=1",
               "source": "bCourses"
             }
           ],
@@ -1467,7 +1534,7 @@
           ],
           "agenda": "Your section plus Managing Technological Innovation.",
           "readings": [
-            "Dominant designs and standards battles; prepare for the reflection/grading queue."
+            "Shilling Ch. 4; NVIDIA on small language models; LLM architecture comparison; IBM multimodal AI; “95% of AI pilots fail”; optional Art of Standards Wars PDF."
           ],
           "deliverables": [
             {
@@ -1488,7 +1555,7 @@
           ],
           "agenda": "Peer-facing review of individual models.",
           "readings": [
-            "Complete one HW1 tab using DFMW rules and label audience/output."
+            "Submit HW3 Tuesday 2pm; review AI formatting prompt and HW2 solutions; Wednesday attendance-sensitive exercise."
           ],
           "deliverables": [
             {
