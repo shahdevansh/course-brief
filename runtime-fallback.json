@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T05:40:00-07:00",
+  "updated_at": "2026-09-22T05:40:00-07:00",
   "days": {
     "2026-09-17": {
       "date": "2026-09-17",
@@ -513,8 +513,8 @@
     },
     "2026-09-22": {
       "date": "2026-09-22",
-      "generated_at": "Mon Sep 21, 5:40am PT",
-      "day_summary": "Three course sessions: enrolled INFO 290T 9:30-11:00am, Agentic AI 4:00-6:00pm, and your UGBA 196.1 section 4:30-5:20pm. Financial Models HW3 is due 2pm and Agentic AI Assignment 3 at 11:59pm; both remain unsubmitted. A 3:30pm VC/PE work hold is on the calendar if needed.",
+      "generated_at": "Tue Sep 22, 5:40am PT",
+      "day_summary": "Three course sessions: enrolled INFO 290T 9:30-11:00am in South Hall 210, Agentic AI 4:00-6:00pm, and your UGBA 196.1 section 4:30-5:20pm in 320D Grimes. Financial Models HW3 is due 2pm and Agentic AI Assignment 3 at 11:59pm; both still show unsubmitted. Your INFO 290T Academic Integrity item is now graded.",
       "courses": [
         {
           "course_id": 1558849,
@@ -524,7 +524,8 @@
           "status": "enrolled",
           "meeting": {
             "label": "9:30-11:00am",
-            "location": "South Hall 210"
+            "location": "South Hall 210",
+            "calendar_url": "https://www.google.com/calendar/event?eid=cjA3NW1uc3VpNjJrNXQzZXAxbGFobGhhbDRfMjAyNjA5MjJUMTYzMDAwWiBkZXZhbnNoLnNoYWhAYmVya2VsZXkuZWR1&authuser=devansh.shah%40berkeley.edu"
           },
           "prep": [
             {
@@ -541,9 +542,9 @@
             }
           ],
           "takeaways": [
-            "Evaluation must measure both adaptation to new experience and retention of earlier behavior; average current-task accuracy alone can hide forgetting.",
-            "Benchmark design depends on what the learner knows at test time, how task boundaries arrive, and whether memory, compute, privacy, and labels are constrained.",
-            "HW1, a personal speech evaluation set plus baseline, is due Oct 1 at 11:59pm."
+            "Evaluation starts with a representative personal task, accurate references, and fixed train/development/evaluation splits.",
+            "Retention and adaptation metrics only mean something when the split and benchmark protocol are stable.",
+            "HW1 due Oct 1: record and label 50 short clips, run the fixed faster-whisper Whisper Base baseline locally, and interpret errors."
           ],
           "materials": [
             {
@@ -551,6 +552,12 @@
               "kind": "page",
               "url": "https://bcourses.berkeley.edu/courses/1558849",
               "source": "bCourses"
+            },
+            {
+              "title": "HW1 shared dataset folder",
+              "kind": "link",
+              "url": "https://drive.google.com/drive/folders/1nmEIOgHijNIPVdKPQQ-Ld0ogv87wCCjd?usp=sharing",
+              "source": "course assignment"
             }
           ],
           "deliverables": [
@@ -573,7 +580,8 @@
           "status": "enrolled",
           "meeting": {
             "label": "4:00-6:00pm",
-            "location": "Chou N570"
+            "location": "Chou N570",
+            "calendar_url": "https://www.google.com/calendar/event?eid=MTB2Y3NsbjQ5dDNrbWF0YWozdHFobGM0ampfMjAyNjA5MjJUMjMwMDAwWiBkZXZhbnNoLnNoYWhAYmVya2VsZXkuZWR1&authuser=devansh.shah%40berkeley.edu"
           },
           "prep": [
             {
@@ -618,19 +626,9 @@
               "est_minutes": 60,
               "points": 10,
               "assignment_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938",
-              "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938",
+              "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130938#submit",
               "status": "due_today",
-              "instructions": "Spec in the linked Google Doc."
-            },
-            {
-              "title": "Assignment 2",
-              "due": "2026-09-16T06:59:59Z",
-              "due_label": "OVERDUE - was due Sep 15",
-              "est_minutes": 45,
-              "points": 10,
-              "assignment_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935",
-              "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935",
-              "status": "overdue"
+              "instructions": "Run all 48 provided evals before and after training, extend the corpus, compare results, and keep every eval out of the training corpus. Canvas still shows unsubmitted."
             }
           ]
         },
@@ -642,7 +640,8 @@
           "status": "ta",
           "meeting": {
             "label": "4:30-5:20pm",
-            "location": "section 196.1"
+            "location": "section 196.1",
+            "calendar_url": "https://www.google.com/calendar/event?eid=MXEyN2FlcTFnbDB2OTMzOW9zdHZlY3RlaHFfMjAyNjA5MjJUMjMzMDAwWiBkZXZhbnNoLnNoYWhAYmVya2VsZXkuZWR1&authuser=devansh.shah%40berkeley.edu"
           },
           "prep": [
             {
@@ -679,6 +678,18 @@
       ],
       "other_deliverables": [
         {
+          "title": "Homework 3 - Individual Model",
+          "due": "2026-09-22T21:00:00Z",
+          "due_label": "Today, 2:00pm",
+          "est_minutes": 150,
+          "points": 6,
+          "assignment_url": "https://bcourses.berkeley.edu/courses/1559172/assignments/9139844",
+          "submit_url": "https://bcourses.berkeley.edu/courses/1559172/assignments/9139844#submit",
+          "status": "due_today",
+          "instructions": "Build one tab of your HW1 model using DFMW design rules; identify the target audience and at least one labeled output. Canvas still shows unsubmitted.",
+          "course": "Financial Models (MBA 236G)"
+        },
+        {
           "course": "Agentic AI (MBA 290T)",
           "title": "Assignment 2",
           "due": "2026-09-16T06:59:59Z",
@@ -689,18 +700,6 @@
           "submit_url": "https://bcourses.berkeley.edu/courses/1555592/assignments/9130935#submit",
           "status": "overdue",
           "instructions": "Canvas still shows unsubmitted. Complete it if the late window remains open."
-        },
-        {
-          "course": "Power & Politics (MBA 254)",
-          "title": "Assignment 2: Relating Self-Reflection",
-          "due": "2026-09-21T23:10:00Z",
-          "due_label": "Mon Sep 21, 4:10pm",
-          "est_minutes": 120,
-          "points": 10,
-          "assignment_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114072",
-          "submit_url": "https://bcourses.berkeley.edu/courses/1555457/assignments/9114072#submit",
-          "status": "upcoming",
-          "instructions": "2-page essay on the relational attribute you most need to improve, 2-3 behaviors to change, and how you will overcome blockers."
         },
         {
           "course": "VC & PE (MBA 295B)",
@@ -727,18 +726,6 @@
           "instructions": "Canvas lists a Class 5 check-in. Instructor says no assignments are due next week, so treat this as in-class participation/check-in rather than take-home work."
         },
         {
-          "course": "INFO 290T - Continual Learning",
-          "title": "Academic Integrity Assignment",
-          "due": "2026-09-26T07:59:00Z",
-          "due_label": "Fri Sep 25, 12:59am",
-          "est_minutes": 10,
-          "points": 1,
-          "assignment_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9146314",
-          "submit_url": "https://bcourses.berkeley.edu/courses/1558849/assignments/9146314#submit",
-          "status": "upcoming",
-          "instructions": "Canvas shows this unsubmitted. Complete it to verify course participation."
-        },
-        {
           "course": "UGBA 196 (you TA)",
           "title": "Academic Integrity Assignment",
           "due": "2026-09-26T07:59:00Z",
@@ -753,8 +740,16 @@
       "audio": null,
       "notices": [
         {
-          "title": "Financial Models resources and Wednesday attendance",
-          "text": "HW3 is due Tuesday 2pm. Jenny posted DFMW AI formatting instructions, HW2 sample solutions, and an 800-review summary. Tell her ASAP if you will miss or switch Wednesday’s assigned section because the class exercise depends on attendance."
+          "title": "INFO 290T participation confirmed",
+          "text": "Canvas now marks the Academic Integrity assignment graded; no further action needed there."
+        },
+        {
+          "title": "P&P essay submitted",
+          "text": "Canvas shows the Relating Self-Reflection submitted Monday at 4:09pm."
+        },
+        {
+          "title": "Wednesday VC/PE prep changed",
+          "text": "Read the Mekasutra case and form a view on current raise size and pre-money valuation. Productive.ai is a new in-class valuation case at a proposed $100m valuation; make sure you can access PitchBook or another source. Read “Structuring the Financing.” Assignment 2 remains due Wednesday noon."
         }
       ]
     },
@@ -1059,7 +1054,7 @@
     },
     "2026-09-23": {
       "date": "2026-09-23",
-      "generated_at": "Sun Sep 20, 5:40am PT",
+      "generated_at": "Tue Sep 22, 5:40am PT",
       "audio": null,
       "day_summary": "Four class blocks overlap late in the day: Managing Technological Innovation 10:10-11:40am, Financial Models 2:00-4:00pm, Power & Politics 4:00-6:00pm, and VC & PE 6:00-9:30pm. The VC/PE investment assignment is due at noon; UGBA 196 student reflection is due 10am.",
       "courses": [
@@ -1217,19 +1212,38 @@
           },
           "prep": [
             {
-              "text": "Submit Assignment 2 by noon: two one-page real investment opportunities plus the team memo",
+              "text": "Submit Assignment 2 by noon: two one-page investment opportunities plus team memo",
               "optional": false
             },
             {
-              "text": "Reach out to your assigned mentor; notify the teaching team if scheduling is difficult",
+              "text": "Read the Mekasutra case; decide how much to raise now and what pre-money valuation Trace can defend",
+              "optional": false
+            },
+            {
+              "text": "Be ready to value Productive.ai at/against a proposed $100m valuation; confirm access to PitchBook or another source",
+              "optional": false
+            },
+            {
+              "text": "Read “Structuring the Financing” on Study.net",
+              "optional": false
+            },
+            {
+              "text": "Reach out to your assigned mentor and flag any scheduling trouble",
               "optional": false
             }
           ],
           "takeaways": [
-            "A useful opportunity memo is sober, specific, and explicit about business model, attraction, and risk.",
-            "You do not need to contact companies this week; follow Assignment 2 only."
+            "Startups are not efficient markets: valuation is a set of approaches for describing and quantifying value and risk, not a Black-Scholes point answer.",
+            "Mekasutra forces a financing-size and pre-money judgment with sparse information.",
+            "Productive.ai adds low millions of revenue, reference customers, prior financing, and a management gap; use comparables and new tools to form a team view."
           ],
           "materials": [
+            {
+              "title": "Class 5 prep announcement - Mekasutra + Productive.ai",
+              "kind": "page",
+              "url": "https://bcourses.berkeley.edu/courses/1556685/discussion_topics/7363936",
+              "source": "bCourses"
+            },
             {
               "title": "Assignment 2",
               "kind": "page",
@@ -1237,10 +1251,10 @@
               "source": "bCourses"
             },
             {
-              "title": "Mentor introduction announcement",
-              "kind": "page",
-              "url": "https://bcourses.berkeley.edu/courses/1556685/discussion_topics/7361289",
-              "source": "bCourses"
+              "title": "Structuring the Financing",
+              "kind": "link",
+              "url": "https://www.study.net",
+              "source": "Study.net"
             }
           ],
           "deliverables": [
