@@ -29,7 +29,7 @@ document.getElementById('nav-today').onclick=function(){location.hash='#/day/'+t
 document.getElementById('nav-prev').onclick=function(){if(state.date)location.hash='#/day/'+addDays(state.date,-1);};
 document.getElementById('nav-next').onclick=function(){if(state.date)location.hash='#/day/'+addDays(state.date,1);};
 document.getElementById('nav-week').onclick=function(){if(state.date){location.hash='#/week/'+weekId(state.date);}};
-function weekId(dateStr){var d=parseDate(dateStr);var day=(d.getDay()+6)%7;d.setDate(d.getDate()-day);return iso(d);}
+function weekId(dateStr){var d=parseDate(dateStr);var day=d.getDay();d.setDate(d.getDate()+(day===0?1:1-day));return iso(d);}
 function setAudio(src){
   if(!src){fab.hidden=true;return;}
   audio.src=src;fab.hidden=false;fab.classList.remove('playing');fab.innerHTML='▶ <span>Listen</span>';
