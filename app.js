@@ -15,6 +15,8 @@ function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){retur
 var state={date:null};
 var RUNTIME_URL='https://drive.usercontent.google.com/download?id=13HBt6ENPHHHKDOKLFGNWiEowriBwzKZc&export=download';
 var runtimePromise=null;
+var AUDIO28_BASE64=null;
+function loadAudio28(){if(AUDIO28_BASE64)return Promise.resolve(AUDIO28_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement('script');tag.src='audio28-parts.js';tag.onload=function(){try{AUDIO28_BASE64=PARTS.join('');resolve(AUDIO28_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
 function loadRuntime(){if(!runtimePromise)runtimePromise=fetch(RUNTIME_URL,{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('runtime');return r.json();}).catch(function(){return fetch('runtime-fallback.json',{cache:'no-cache'}).then(function(r){return r.json();});});return runtimePromise;}
 function route(){
   var h=location.hash||'';
@@ -31,14 +33,25 @@ document.getElementById('nav-next').onclick=function(){if(state.date)location.ha
 document.getElementById('nav-week').onclick=function(){if(state.date){location.hash='#/week/'+weekId(state.date);}};
 function weekId(dateStr){var d=parseDate(dateStr);var day=d.getDay();d.setDate(d.getDate()+(day===0?1:1-day));return iso(d);}
 function setAudio(src){
-  if(!src){fab.hidden=true;return;}
+  if(!src){audio.removeAttribute('src');fab.hidden=true;return;}
   audio.src=src;fab.hidden=false;fab.classList.remove('playing');fab.innerHTML='▶ <span>Listen</span>';
 }
-fab.onclick=function(){
-  if(audio.paused){audio.play();fab.classList.add('playing');fab.innerHTML='❚❚ <span>Playing</span>';}
-  else{audio.pause();fab.classList.remove('playing');fab.innerHTML='▶ <span>Listen</span>';}
+function resetAudioButton(){fab.classList.remove('playing');fab.innerHTML='▶ <span>Listen</span>';}
+fab.onclick=async function(){
+  if(!audio.paused){audio.pause();resetAudioButton();return;}
+  try{
+    if(state.date==='2026-09-28'){
+      var b64=await loadAudio28();
+      if(!audio.src.startsWith('blob:')){
+        var raw=atob(b64), bytes=new Uint8Array(raw.length);
+        for(var i=0;i<raw.length;i++)bytes[i]=raw.charCodeAt(i);
+        audio.src=URL.createObjectURL(new Blob([bytes],{type:'audio/mpeg'}));
+      }
+    }
+    await audio.play();fab.classList.add('playing');fab.innerHTML='❚❚ <span>Playing</span>';
+  }catch(e){resetAudioButton();console.error('Audio playback failed',e);}
 };
-audio.onended=function(){fab.classList.remove('playing');fab.innerHTML='▶ <span>Listen</span>';};
+audio.onended=resetAudioButton;audio.onerror=resetAudioButton;
 function matIcon(k){return {pdf:'📄',slides:'📊',link:'🔗',page:'📃',video:'🎬',audio:'🎧',zip:'🗜️'}[k]||'📎';}
 function courseAnchor(c,i){return "course-"+(c.code||c.short||("class-"+i)).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");}
 function renderCourse(c,i){
