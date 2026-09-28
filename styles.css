@@ -64,3 +64,12 @@ ul.prep li .opt{font-size:12px;color:var(--amber);font-weight:600;margin-left:6p
 .err{background:#2a1a1e;border:1px solid var(--red);border-radius:10px;padding:14px;margin:16px 0;font-size:14px}
 footer{color:var(--muted);font-size:12px;text-align:center;padding:24px 0}
 .class-crumbs{position:sticky;top:61px;z-index:8;display:flex;gap:8px;align-items:center;overflow-x:auto;margin:12px 0 18px;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(14,17,22,.96);backdrop-filter:blur(10px);white-space:nowrap}.class-crumbs span{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.06em}.class-crumbs a{color:var(--text);background:var(--card);border:1px solid var(--border);border-radius:999px;padding:7px 10px;text-decoration:none;font-size:13px}.course{scroll-margin-top:125px}.session-detail{margin:16px 0;padding:14px 15px;border-left:3px solid var(--accent);border-radius:8px;background:rgba(79,140,255,.08)}.session-detail h3{margin:0 0 6px;font-size:14px}.session-detail p{margin:0;color:var(--text);font-size:14px;line-height:1.55}
+@media(max-width:600px){
+  .course .chead{display:block}
+  .course .chead>div{min-width:0}
+  .course .badge{display:inline-block;max-width:100%;white-space:normal;overflow-wrap:anywhere;font-size:10px;line-height:1.35;margin-top:8px}
+  .class-crumbs{max-width:100%}
+  .class-crumbs a{flex:0 0 auto}
+  .deliv .dtop{display:block}
+  .deliv .due{white-space:normal;display:block;margin-top:3px}
+}
