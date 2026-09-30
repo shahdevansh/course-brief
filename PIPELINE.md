@@ -33,3 +33,15 @@ The shell fetches the JSON URL with cache disabled. If Drive is unavailable, it 
 ## One-time deployment
 
 The archive containing this file must be deployed once to the existing course-brief-pi Vercel project. After that, normal daily refreshes touch Drive only.
+
+## Public release privacy gate (written content and audio)
+
+All outputs on this site have the same public audience. Before each publication:
+
+1. Build a single public-safe source record first. Inbox and calendar evidence may establish dates and cancellations, but private reasons, diagnoses, health status, counterpart personal circumstances, private names tied to those circumstances, message quotes and sender attribution never enter the public record. Use "The mentor visit is canceled and awaits a new time" without naming the reason or people.
+2. Generate both the written brief and spoken transcript only from that public-safe record. Inspect the complete transcript before speech generation. A corrected written page does not clear older audio.
+3. Transcribe the actual returned audio, compare it with the approved public-safe transcript, and inspect every sentence for private data before creating any publicly accessible asset. Hold publication if transcription is unavailable or wording is uncertain.
+4. Inspect the complete runtime JSON, fallback JSON, source assets and audio together before deploy. Do not include raw emails, calendar descriptions, student/grading information or private-person circumstances in any artifact or commit.
+5. On a privacy failure, remove the affected public payload and audio reference first. Treat repository history, old deployments, Drive revisions and copies as separate residual exposures. Never claim full containment from a current-file replacement alone.
+
+No audio may publish unless both the transcript and actual audio pass this gate.
