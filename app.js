@@ -17,6 +17,8 @@ var RUNTIME_URL='https://drive.usercontent.google.com/download?id=13HBt6ENPHHHKD
 var runtimePromise=null;
 var AUDIO28_BASE64=null;
 var AUDIO29_BASE64=null;
+var AUDIO30_BASE64=null;
+function loadAudio30(){if(AUDIO30_BASE64)return Promise.resolve(AUDIO30_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement("script");tag.src="audio30-parts.js";tag.onload=function(){try{AUDIO30_BASE64=PARTS30.join("");resolve(AUDIO30_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
 function loadAudio29(){if(AUDIO29_BASE64)return Promise.resolve(AUDIO29_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement('script');tag.src='audio29-parts.js';tag.onload=function(){try{AUDIO29_BASE64=PARTS29.join('');resolve(AUDIO29_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
 function loadAudio28(){if(AUDIO28_BASE64)return Promise.resolve(AUDIO28_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement('script');tag.src='audio28-parts.js';tag.onload=function(){try{AUDIO28_BASE64=PARTS.join('');resolve(AUDIO28_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
 function loadRuntime(){if(!runtimePromise)runtimePromise=fetch(RUNTIME_URL,{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('runtime');return r.json();}).catch(function(){return fetch('runtime-fallback.json',{cache:'no-cache'}).then(function(r){return r.json();});});return runtimePromise;}
@@ -42,8 +44,8 @@ function resetAudioButton(){fab.classList.remove('playing');fab.innerHTML='▶ <
 fab.onclick=async function(){
   if(!audio.paused){audio.pause();resetAudioButton();return;}
   try{
-    if(state.date==='2026-09-28'||state.date==='2026-09-29'){
-      var b64=state.date==='2026-09-28'?await loadAudio28():await loadAudio29();
+    if(state.date==='2026-09-28'||state.date==='2026-09-29'||state.date==='2026-09-30'){
+      var b64=state.date==='2026-09-28'?await loadAudio28():(state.date==='2026-09-30'?await loadAudio30():await loadAudio29());
       if(!audio.src.startsWith('blob:')){
         var raw=atob(b64), bytes=new Uint8Array(raw.length);
         for(var i=0;i<raw.length;i++)bytes[i]=raw.charCodeAt(i);
