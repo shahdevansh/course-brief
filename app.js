@@ -18,6 +18,8 @@ var runtimePromise=null;
 var AUDIO28_BASE64=null;
 var AUDIO29_BASE64=null;
 var AUDIO30_BASE64=null;
+var AUDIO03_BASE64=null;
+function loadAudio03(){if(AUDIO03_BASE64)return Promise.resolve(AUDIO03_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement("script");tag.src="audio03-parts.js";tag.onload=function(){try{AUDIO03_BASE64=PARTS03.join("");resolve(AUDIO03_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
 var AUDIO02_BASE64=null;
 function loadAudio02(){if(AUDIO02_BASE64)return Promise.resolve(AUDIO02_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement("script");tag.src="audio02-parts.js";tag.onload=function(){try{AUDIO02_BASE64=PARTS02.join("");resolve(AUDIO02_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
 var AUDIO01_BASE64=null;
@@ -48,8 +50,8 @@ function resetAudioButton(){fab.classList.remove('playing');fab.innerHTML='▶ <
 fab.onclick=async function(){
   if(!audio.paused){audio.pause();resetAudioButton();return;}
   try{
-    if(state.date==='2026-09-28'||state.date==='2026-09-29'||state.date==='2026-09-30'||state.date==='2026-10-01'||state.date==='2026-10-02'){
-      var b64=state.date==='2026-09-28'?await loadAudio28():(state.date==='2026-10-02'?await loadAudio02():state.date==='2026-10-01'?await loadAudio01():(state.date==='2026-09-30'?await loadAudio30():await loadAudio29()));
+    if(state.date==='2026-09-28'||state.date==='2026-09-29'||state.date==='2026-09-30'||state.date==='2026-10-01'||state.date==='2026-10-02'||state.date==='2026-10-03'){
+      var b64=state.date==='2026-09-28'?await loadAudio28():(state.date==='2026-10-03'?await loadAudio03():state.date==='2026-10-02'?await loadAudio02():state.date==='2026-10-01'?await loadAudio01():(state.date==='2026-09-30'?await loadAudio30():await loadAudio29()));
       if(!audio.src.startsWith('blob:')){
         var raw=atob(b64), bytes=new Uint8Array(raw.length);
         for(var i=0;i<raw.length;i++)bytes[i]=raw.charCodeAt(i);
@@ -95,7 +97,7 @@ function loadDay(date){
     if(d.courses&&d.courses.length){h+='<nav class="class-crumbs" aria-label="Classes today"><span>Jump to:</span>';d.courses.forEach(function(c,i){h+='<a href="#'+courseAnchor(c,i)+'">'+esc(c.short||c.name)+'</a>';});h+='</nav>';d.courses.forEach(function(c,i){h+=renderCourse(c,i);});}else{h+='<div class="empty">No classes this day.</div>';}
     if(d.other_deliverables&&d.other_deliverables.length){h+='<h3 class="sec" style="margin-top:24px">Also due</h3>';d.other_deliverables.forEach(function(x){h+=renderDeliv(x);});}
     h+='<footer>Generated from bCourses + your calendar. Recall over accuracy: if something looks missing, it may not be posted yet.</footer>';
-    app.innerHTML=h;setAudio(d.audio||(date==='2026-10-02'?'audio02.mp3':null)||(date==='2026-10-01'?'audio01.mp3':null)||(date==='2026-09-30'?'audio30.mp3':null)||(date==='2026-09-17'?'https://drive.usercontent.google.com/download?id=1Ee99cJkRNWJIpX71Xy3PbDL6fzqsgJp8&export=download':null));window.scrollTo(0,0);
+    app.innerHTML=h;setAudio(d.audio||(date==='2026-10-03'?'audio03.mp3':null)||(date==='2026-10-02'?'audio02.mp3':null)||(date==='2026-10-01'?'audio01.mp3':null)||(date==='2026-09-30'?'audio30.mp3':null)||(date==='2026-09-17'?'https://drive.usercontent.google.com/download?id=1Ee99cJkRNWJIpX71Xy3PbDL6fzqsgJp8&export=download':null));window.scrollTo(0,0);
   }).catch(function(){
     app.innerHTML='<div class="day-head"><h1>'+fmtDay(date)+'</h1></div><div class="empty">No brief generated for this day yet.<br><br><a class="btn" href="#/day/'+todayStr()+'">Back to today</a></div>';setAudio(null);
   });
