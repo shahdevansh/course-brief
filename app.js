@@ -19,7 +19,7 @@ var AUDIO28_BASE64=null;
 var AUDIO29_BASE64=null;
 var AUDIO30_BASE64=null;
 var AUDIO07_BASE64=null;
-function loadAudio07(){if(AUDIO07_BASE64)return Promise.resolve(AUDIO07_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement("script");tag.src="audio07-parts.js";tag.onload=function(){try{AUDIO07_BASE64=PARTS07.join("");resolve(AUDIO07_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
+function loadAudio07(){if(AUDIO07_BASE64)return Promise.resolve(AUDIO07_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement("script");tag.src="audio07-parts.js/audio07-parts.js";tag.onload=function(){try{AUDIO07_BASE64=PARTS07.join("");resolve(AUDIO07_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
 var AUDIO06_BASE64=null;
 function loadAudio06(){if(AUDIO06_BASE64)return Promise.resolve(AUDIO06_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement("script");tag.src="audio06-parts.js";tag.onload=function(){try{AUDIO06_BASE64=PARTS06.join("");resolve(AUDIO06_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
 var AUDIO05_BASE64=null;
