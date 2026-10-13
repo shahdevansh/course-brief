@@ -82,6 +82,38 @@ function route(){
   else if(w){loadWeek(w[1]);}
   else{state.date=todayStr();location.replace('#/day/'+state.date);}
 }
+var AUDIO13_BASE64=null
+function loadAudio13(){if(AUDIO13_BASE64)return Promise.resolve(AUDIO13_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement("script");tag.src="audio13-parts.js";tag.onload=function(){try{AUDIO13_BASE64=PARTS13.join("");resolve(AUDIO13_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
+var AUDIO10_BASE64=null
+function loadAudio10(){if(AUDIO10_BASE64)return Promise.resolve(AUDIO10_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement("script");tag.src="audio10-parts.js";tag.onload=function(){try{AUDIO10_BASE64=PARTS10.join("");resolve(AUDIO10_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
+var AUDIO09_BASE64=null;
+function loadAudio09(){if(AUDIO09_BASE64)return Promise.resolve(AUDIO09_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement("script");tag.src="audio09-parts.js";tag.onload=function(){try{AUDIO09_BASE64=PARTS09.join("");resolve(AUDIO09_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
+var AUDIO08_BASE64=null;
+function loadAudio08(){if(AUDIO08_BASE64)return Promise.resolve(AUDIO08_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement("script");tag.src="audio08-parts.js";tag.onload=function(){try{AUDIO08_BASE64=PARTS08.join("");resolve(AUDIO08_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
+var AUDIO07_BASE64=null;
+function loadAudio07(){if(AUDIO07_BASE64)return Promise.resolve(AUDIO07_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement("script");tag.src="audio07-parts.js/audio07-parts.js";tag.onload=function(){try{AUDIO07_BASE64=PARTS07.join("");resolve(AUDIO07_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
+var AUDIO06_BASE64=null;
+function loadAudio06(){if(AUDIO06_BASE64)return Promise.resolve(AUDIO06_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement("script");tag.src="audio06-parts.js";tag.onload=function(){try{AUDIO06_BASE64=PARTS06.join("");resolve(AUDIO06_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
+var AUDIO05_BASE64=null;
+function loadAudio05(){if(AUDIO05_BASE64)return Promise.resolve(AUDIO05_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement("script");tag.src="audio05-parts.js";tag.onload=function(){try{AUDIO05_BASE64=PARTS05.join("");resolve(AUDIO05_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
+var AUDIO03_BASE64=null;
+function loadAudio03(){if(AUDIO03_BASE64)return Promise.resolve(AUDIO03_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement("script");tag.src="audio03-parts.js";tag.onload=function(){try{AUDIO03_BASE64=PARTS03.join("");resolve(AUDIO03_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
+var AUDIO02_BASE64=null;
+function loadAudio02(){if(AUDIO02_BASE64)return Promise.resolve(AUDIO02_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement("script");tag.src="audio02-parts.js";tag.onload=function(){try{AUDIO02_BASE64=PARTS02.join("");resolve(AUDIO02_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
+var AUDIO01_BASE64=null;
+function loadAudio01(){if(AUDIO01_BASE64)return Promise.resolve(AUDIO01_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement("script");tag.src="audio01-parts.js";tag.onload=function(){try{AUDIO01_BASE64=PARTS01.join("");resolve(AUDIO01_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
+function loadAudio30(){if(AUDIO30_BASE64)return Promise.resolve(AUDIO30_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement("script");tag.src="audio30-parts.js";tag.onload=function(){try{AUDIO30_BASE64=PARTS30.join("");resolve(AUDIO30_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
+function loadAudio29(){if(AUDIO29_BASE64)return Promise.resolve(AUDIO29_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement('script');tag.src='audio29-parts.js';tag.onload=function(){try{AUDIO29_BASE64=PARTS29.join('');resolve(AUDIO29_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
+function loadAudio28(){if(AUDIO28_BASE64)return Promise.resolve(AUDIO28_BASE64);return new Promise(function(resolve,reject){var tag=document.createElement('script');tag.src='audio28-parts.js';tag.onload=function(){try{AUDIO28_BASE64=PARTS.join('');resolve(AUDIO28_BASE64);}catch(e){reject(e);}};tag.onerror=reject;document.head.appendChild(tag);});}
+function loadRuntime(){if(!runtimePromise)runtimePromise=fetch(RUNTIME_URL,{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('runtime');return r.json();}).catch(function(){return fetch('runtime-fallback.json',{cache:'no-cache'}).then(function(r){return r.json();});});return runtimePromise;}
+function route(){
+  var h=location.hash||'';
+  var m=h.match(/^#\/day\/(\d{4}-\d{2}-\d{2})/);
+  var w=h.match(/^#\/week\/([\w-]+)/);
+  if(m){state.date=m[1];loadDay(m[1]);}
+  else if(w){loadWeek(w[1]);}
+  else{state.date=todayStr();location.replace('#/day/'+state.date);}
+}
 window.addEventListener('hashchange',route);
 document.getElementById('nav-today').onclick=function(){location.hash='#/day/'+todayStr();};
 document.getElementById('nav-prev').onclick=function(){if(state.date)location.hash='#/day/'+addDays(state.date,-1);};
@@ -96,8 +128,8 @@ function resetAudioButton(){fab.classList.remove('playing');fab.innerHTML='▶ <
 fab.onclick=async function(){
   if(!audio.paused){audio.pause();resetAudioButton();return;}
   try{
-    if(state.date==='2026-09-28'||state.date==='2026-09-29'||state.date==='2026-09-30'||state.date==='2026-10-01'||state.date==='2026-10-02'||state.date==='2026-10-03'||state.date==='2026-10-05'||state.date==='2026-10-06'||state.date==='2026-10-07'||state.date==='2026-10-08'||state.date==='2026-10-09'||state.date==='2026-10-10'||state.date==='2026-10-11'||state.date==='2026-10-12'){
-      var b64=state.date==='2026-09-28'?await loadAudio28():(state.date==='2026-10-12'?await loadAudio12():state.date==='2026-10-11'?await loadAudio11():state.date==='2026-10-10'?await loadAudio10():state.date==='2026-10-09'?await loadAudio09():state.date==='2026-10-08'?await loadAudio08():state.date==='2026-10-07'?await loadAudio07():state.date==='2026-10-06'?await loadAudio06():state.date==='2026-10-05'?await loadAudio05():state.date==='2026-10-03'?await loadAudio03():state.date==='2026-10-02'?await loadAudio02():state.date==='2026-10-01'?await loadAudio01():(state.date==='2026-09-30'?await loadAudio30():await loadAudio29()));
+    if(state.date==='2026-09-28'||state.date==='2026-09-29'||state.date==='2026-09-30'||state.date==='2026-10-01'||state.date==='2026-10-02'||state.date==='2026-10-03'||state.date==='2026-10-05'||state.date==='2026-10-06'||state.date==='2026-10-07'||state.date==='2026-10-08'||state.date==='2026-10-09'||state.date==='2026-10-10'||state.date==='2026-10-11'||state.date==='2026-10-12'||state.date==='2026-10-13'){
+      var b64=state.date==='2026-09-28'?await loadAudio28():(state.date==='2026-10-13'?await loadAudio13():state.date==='2026-10-12'?await loadAudio12():state.date==='2026-10-11'?await loadAudio11():state.date==='2026-10-10'?await loadAudio10():state.date==='2026-10-09'?await loadAudio09():state.date==='2026-10-08'?await loadAudio08():state.date==='2026-10-07'?await loadAudio07():state.date==='2026-10-06'?await loadAudio06():state.date==='2026-10-05'?await loadAudio05():state.date==='2026-10-03'?await loadAudio03():state.date==='2026-10-02'?await loadAudio02():state.date==='2026-10-01'?await loadAudio01():(state.date==='2026-09-30'?await loadAudio30():await loadAudio29()));
       if(!audio.src.startsWith('blob:')){
         var raw=atob(b64), bytes=new Uint8Array(raw.length);
         for(var i=0;i<raw.length;i++)bytes[i]=raw.charCodeAt(i);
